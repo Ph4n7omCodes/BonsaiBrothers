@@ -36,6 +36,7 @@
     }
 
     body{
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -124,6 +125,7 @@
       }
     }
 
+  
     .card {
       margin: 100px auto 0;
       width: 350px;
@@ -169,7 +171,7 @@
     .card__face--front .name {
       margin-left: 15px;
       color: #000;
-      z-index: 3;
+      z-index: 1;
       
     }
     
