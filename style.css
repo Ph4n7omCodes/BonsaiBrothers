@@ -262,6 +262,9 @@
     h3:hover{
       background-color: #737576;
     }
+    h6{
+      font-size: 30px;
+    }
 
     .order{
       display: flex;
