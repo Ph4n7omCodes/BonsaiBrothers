@@ -202,12 +202,7 @@
       z-index: -1;
     }
     
-    .card__face--front .name {
-      margin-left: 15px;
-      color: #000;
-      z-index: 1;
-      
-    }
+   
     
     .card__face--back {
       transform: rotateY(180deg);
