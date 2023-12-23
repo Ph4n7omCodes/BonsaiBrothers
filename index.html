@@ -17,33 +17,102 @@
     <img src="./img/Screenshot 2023-12-18 at 7.31.17 PM.png"  alt="Bonsai Brothers Logo">
     <a href="#menu"><span></span>Menu</a>
   </section>
-  <section>
-    <h1>Mission Statement</h1>
-  </section>
+
   <section id="menu">
- 
-        <div class="card ">
-          <div class="card__inner">
-            <div class="card__face card__face--front">
-              <img src="img/Screenshot 2023-12-16 at 4.07.51 PM.png" alt="">
-              <div class="name">
-                <h2>Tropicana Cherry</h2>
-                <h3>Hybrid</h3>
-              </div>
-            </div>
-            <div class="card__face card__face--back">
-              <div class="card__content">
-                <div class="card__header">
-                  <h3>Tropicana Cherry a slightly sativa dominant hybrid strain (60% sativa/40% indica) created through crossing the infamous Tropicana Cookies X Cherry Cookies strains. Love a super heavy flavor? Tropicana Cherry is the bud for you. This lovely lady packs flavors of sweet and sour citrus wrapped up with overly ripe cherries and earthy nuttiness, intensifying in fruitiness the more that you toke. The aroma is similar, although heavier and sourer in nature with a sharp citrus overtone that will leave your eyes wide open. </h3>
+   
+    <div class="swiper mySwiper">
+      
+      <div class="swiper-wrapper ">
+
+        <div class="swiper-slide">
+          <div class="card ">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <img src="img/Screenshot 2023-12-16 at 4.07.51 PM.png" alt="">
+                <div>
+                    <h2>Tropicana Cherry</h2>
+                    <h3>$$$</h3>
                 </div>
-                <div class="card__body">
-                  <a href="mailto:johndoe@fakeemail.com">Place Order</a>
+                    <h4>Read me</h4>
                 </div>
+                <div class="card__face card__face--back">
+                  <div class="card__content">
+                    <div class="card__header">
+                      <h3>Tropicana Cherry a slightly sativa dominant hybrid strain (60% sativa/40% indica) created through crossing the infamous Tropicana Cookies X Cherry Cookies strains. Love a super heavy flavor? Tropicana Cherry is the bud for you. This lovely lady packs flavors of sweet and sour citrus wrapped up with overly ripe cherries and earthy nuttiness, intensifying in fruitiness the more that you toke. The aroma is similar, although heavier and sourer in nature with a sharp citrus overtone that will leave your eyes wide open. </h3>
+                    </div>
+                    <div class="card__body">
+                      <a href="mailto:johndoe@fakeemail.com">Place Order</a>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
-        </div>
+        </div>  
 
+
+        <div class="swiper-slide">
+          <div class="card ">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <img src="img/Screenshot 2023-12-16 at 4.07.51 PM.png" alt="">
+                <div>
+                    <h2>Tropicana Cherry</h2>
+                    <h3>$$$</h3>
+                </div>
+                    <h4>Read me</h4>
+                </div>
+                <div class="card__face card__face--back">
+                  <div class="card__content">
+                    <div class="card__header">
+                      <h3>Tropicana Cherry a slightly sativa dominant hybrid strain (60% sativa/40% indica) created through crossing the infamous Tropicana Cookies X Cherry Cookies strains. Love a super heavy flavor? Tropicana Cherry is the bud for you. This lovely lady packs flavors of sweet and sour citrus wrapped up with overly ripe cherries and earthy nuttiness, intensifying in fruitiness the more that you toke. The aroma is similar, although heavier and sourer in nature with a sharp citrus overtone that will leave your eyes wide open. </h3>
+                    </div>
+                    <div class="card__body">
+                      <a href="mailto:johndoe@fakeemail.com">Place Order</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+
+        <div class="swiper-slide">
+          <div class="card ">
+              <div class="card__inner">
+                <div class="card__face card__face--front">
+                  <img src="img/Screenshot 2023-12-16 at 4.07.51 PM.png" alt="">
+                <div>
+                    <h2>Tropicana Cherry</h2>
+                    <h3>$$$</h3>
+                </div>
+                    <h4>Read me</h4>
+                </div>
+                <div class="card__face card__face--back">
+                  <div class="card__content">
+                    <div class="card__header">
+                      <h3>Tropicana Cherry a slightly sativa dominant hybrid strain (60% sativa/40% indica) created through crossing the infamous Tropicana Cookies X Cherry Cookies strains. Love a super heavy flavor? Tropicana Cherry is the bud for you. This lovely lady packs flavors of sweet and sour citrus wrapped up with overly ripe cherries and earthy nuttiness, intensifying in fruitiness the more that you toke. The aroma is similar, although heavier and sourer in nature with a sharp citrus overtone that will leave your eyes wide open. </h3>
+                    </div>
+                    <div class="card__body">
+                      <a href="mailto:johndoe@fakeemail.com">Place Order</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+
+    </div>  
+
+  </section>
+
+
+  
  
 
 
@@ -68,7 +137,24 @@
     <p>&copy; 2018 Bonsai Brothers | All Rights Reserved</p>
   </footer>
   <script src="script.js"></script>
- 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 1,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
  </body>
 
 </html> 
