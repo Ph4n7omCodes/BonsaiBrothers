@@ -57,6 +57,8 @@
       height: 200px;
       margin-top: 20px;
       margin-bottom: 40px;
+      display: flex;
+      flex-direction: row;
      }
     .menu-btn a{
       text-decoration: none;
