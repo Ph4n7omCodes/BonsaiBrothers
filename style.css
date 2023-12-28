@@ -48,13 +48,15 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      /* border: solid 1px red; */
+      border: solid 1px red;
       width: 100%;
       height: 90vh;
      }
-     .menu-btn{
+    .menu-links{
       width: 100%;
-      height: 200px;
+      height: 400px;
+    }
+     .menu-btn{
       margin-top: 20px;
       margin-bottom: 30px;
       display: flex;
@@ -65,20 +67,13 @@
       font-size: 18px;
       border: solid 1px #000;
       border-radius: 7px;
+      background-color: #fff;
       text-decoration: none;
-      color: #737576;
+      color: #000;
       padding: 5px 5px;
       margin: 4px;
-      text-shadow:
-      /* Outline */
-      -1px -1px 0 #000000,
-      1px -1px 0 #000000,
-      -1px 1px 0 #000000,
-      1px 1px 0 #000000,  
-      -2px 0 0 #000000,
-      2px 0 0 #000000,
-      0 2px 0 #000000,
-      0 -2px 0 #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
     }
 
    
@@ -115,16 +110,18 @@
 
     #section05 a {
       padding-top: 70px;
+      font-family:'Times New Roman', Times, serif;
+      font-weight: 800;
     }
     #section05 a span {
       position: absolute;
-      top: 0;
+      margin-top: 18px;
       left: 50%;
-      width: 24px;
-      height: 24px;
-      margin-left: -12px;
-      border-left: 1px solid #000;
-      border-bottom: 1px solid #000;
+      width: 12px;
+      height: 12px;
+      margin-left: -7px;
+      border-left: 2.5px solid #fff;
+      border-bottom: 2.5px solid #fff;
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       -webkit-animation: sdb05 1.5s infinite;
@@ -197,14 +194,14 @@
     /* Hide the checkbox while still keeping its property */
     input {
       display: none;
-      /* border: solid 1px red;  */
     
     }
     
     /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
     .flip-card {
     background-color: transparent;
-    border: 1px solid #f1f1f1;
+    /* border: 1px solid #f1f1f1; */
+    height: 350px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     
     }
@@ -213,7 +210,7 @@
     .flip-card-inner {
     position: relative;
     width: 250px;
-    height: 300px;
+    height: 350px;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -232,17 +229,30 @@
     height: 100%;
     backface-visibility: hidden;
     }
+    .flip-card-inner, .flip-card-front img{
+      position: relative;
+      width: 200px;
+      height: 200px;
+   
+    }
+    .flip-card-front{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     
     /* Style the back side */
     .flip-card-back {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      height: 350px;
+   
+    align-items: center;
       flex-direction: column;
+      
     background-color: transparent;
     color: #000;
     transform: rotateY(180deg);
-    position: absolute;
+    
     padding-top: 10px;
     font-size: 1em;
    
@@ -268,38 +278,71 @@
     }
 
      h2, h3{
-      margin:0;
-      position: relative;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
     }
+p{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: #737576;
+  color: #fff;
+  border: solid 1px #000;
+  border-radius: 7px;
+  font-size: 15px;
+
+}
+   
     h1{
-      border: 1px solid #333333;
-      width: 250px;
-      height: 200px;
+      border-radius: 7px;
+     padding: 7px;
       overflow: scroll;
-      font-size: 18px;
-      line-height: 20px;
-      background-color: #fff;
+      font-size: 16px;
+      line-height: 16px;
+      background-color: #000;
+      color: #fff;
     }
    
     h3{
       border: solid 1px #000;
-      width: 100px;
-     margin: 10px;
-      border-radius: 7px;
+      width: 150px;
+     margin: 18px;
+      border-radius: 5px;
       box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.5);
 
     }
     h3:hover{
-      background-color: #737576;
+      background-color: #fff;
+      transition: 0.5s;
+    }
+    h5:hover{
+      background-color: #fff;
+      transition: 0.5s;
     }
     h6{
-      font-size: 30px;
+      font-size: 20px;
       margin-top: 0;
-    }
+      color: #fff;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: #000 1px 0 10px;  
+      }
+      a{
+        text-decoration: none;
+        color: #000;
+      }
+      h5{
+        border: solid 1px #000;
+        background-color: #737576;
+        border-radius: 5px;
+        box-shadow: 0px 3px 8px 3px rgba(0, 0, 0, 0.5);
+        padding: 0 10px;
+        font-size: 17px;
+
+      }
 
     .order{
       display: flex;
-      gap: 60px;
+      gap: 50px;
       font-size: 25px;
       
     }
