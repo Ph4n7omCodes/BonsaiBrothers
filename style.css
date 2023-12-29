@@ -312,11 +312,11 @@
       font-family: 'Times New Roman', Times, serif;
     }
 .flip-card-front p{
-  position: relative;
  margin-right: 150px;
-  background-color: #737576;
+  /* background-color: #737576; */
+  background-color: #000;
   color: #fff;
-  border: solid 1px #000;
+  /* border: solid 1px #000; */
   border-radius: 7px;
   font-size: 15px;
   
