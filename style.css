@@ -202,7 +202,7 @@
     label {
       cursor: pointer;
       /* border: solid 1px red;  */
-      margin-top: 300px;
+      margin-top: 250px;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -257,13 +257,12 @@
       position: relative;
       width: 200px;
       height: 200px;
-      z-index: -1;
       border-radius: 7px;
-      
-   
+    }
+    .flip-card-front img{
+      z-index: -1;
     }
     .flip-card-front{
-      z-index: -1;
       display: flex;
       flex-direction: column;
       align-items: center;
