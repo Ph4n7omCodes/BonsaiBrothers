@@ -258,6 +258,7 @@
       width: 200px;
       height: 200px;
       border-radius: 7px;
+      backface-visibility: hidden;
     }
   
     .flip-card-front{
@@ -268,7 +269,7 @@
     
     /* Style the back side */
     .flip-card-back {
-      z-index: 1;
+     
       display: flex;
       height: 300px;
    
