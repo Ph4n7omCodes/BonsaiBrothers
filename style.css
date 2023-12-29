@@ -388,10 +388,7 @@
       opacity: 0.5;
       transition: 0.2s;
     }
-    h5:hover{
-      background-color: #fff;
-      transition: 0.5s;
-    }
+   
     .swiper-slide h6{
       font-size: 35px;
       margin: 0;
@@ -411,7 +408,8 @@
      
       h5{
         background-color: #737576;
-        font-size: 17px;
+        margin: 0;
+        font-size: 30px;
 
       }
 
