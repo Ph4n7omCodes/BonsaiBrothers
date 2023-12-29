@@ -31,6 +31,10 @@
     -webkit-animation-delay: 0.3s;
     animation-delay: 0.5s; }
 
+    *{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
     html {
       scroll-behavior: smooth;
     }
@@ -120,7 +124,7 @@
       -webkit-transform: translate(0, -50%);
       transform: translate(0, -50%);
       color: #000;
-      font : normal 400 20px/1 'Josefin Sans', sans-serif;
+      font : normal 400 20px/1 ;
       letter-spacing: .1em;
       text-decoration: none;
       transition: opacity .3s;
@@ -307,20 +311,19 @@
       
     }
 
-     h2, h3{
-     margin: 0;
-      font-size: 20px;
-      font-family: 'Times New Roman', Times, serif;
-    }
+  
 .flip-card-front p{
- margin-right: 150px;
+  position: relative;
+  top: 20%;
+ margin-right: 140px;
+ padding: 2px;
   /* background-color: #737576; */
   background-color: #000;
   color: #fff;
   /* border: solid 1px #000; */
   border-radius: 7px;
   font-size: 15px;
-  
+  z-index: 1;
   backface-visibility: hidden;
 
 }
@@ -335,7 +338,14 @@
       background-color: #000;
       color: #fff;
     }
-  
+    h2{
+      font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    h2, h3{
+      margin: 0;
+       font-size: 20px;
+       /* font-family: 'Times New Roman', Times, serif; */
+     }
    
     h3{
       border: solid 1px #000;
@@ -353,6 +363,14 @@
       background-color: #fff;
       transition: 0.5s;
     }
+    .swiper-slide h6{
+      font-size: 25px;
+      margin: 0;
+      color: #fff;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: #000 1px 0 10px; 
+    }
+
     .menu-links h6{
       font-size: 20px;
       margin-top: 0;
@@ -372,11 +390,13 @@
       }
 
     .order{
+      position: relative;
+      bottom: 5%;
       display: flex;
       gap: 50px;
       font-size: 25px;
-      
     }
+   
 
     .hidden {
       display: none;
