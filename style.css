@@ -248,6 +248,7 @@
     /* Do an horizontal flip when you click over the flip box container */
     :checked + .flip-card-inner {
     transform: rotateY(180deg);
+    transition: 1.5s;
     }
     
     /* Position the front and back side */
@@ -378,7 +379,7 @@
     }
 
     h3:hover{
-      opacity: 0.4;
+      opacity: 0.5;
       transition: 0.2s;
     }
     h5:hover{
