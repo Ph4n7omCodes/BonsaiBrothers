@@ -260,7 +260,7 @@
       border-radius: 7px;
     }
     .flip-card-front img{
-      z-index: -1;
+      
     }
     .flip-card-front{
       display: flex;
@@ -271,7 +271,7 @@
     /* Style the back side */
     .flip-card-back {
       display: flex;
-      height: 350px;
+      height: 300px;
    
     align-items: center;
       flex-direction: column;
