@@ -262,6 +262,7 @@
     }
   
     .flip-card-front{
+      backface-visibility: hidden;
       display: flex;
       flex-direction: column;
       align-items: center;
