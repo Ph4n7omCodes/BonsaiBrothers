@@ -379,7 +379,7 @@
 
     h3:hover{
       opacity: 0.4;
-      transition: 0.5s;
+      transition: 0.2s;
     }
     h5:hover{
       background-color: #fff;
@@ -391,7 +391,7 @@
       color: #fff;
       font-family: 'Times New Roman', Times, serif;
       text-shadow: #000 1px 0 10px; 
-      border-bottom: solid 2px #fff;
+      border-bottom: solid 1px #fff;
     }
 
     .menu-links h6{
