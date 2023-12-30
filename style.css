@@ -153,11 +153,15 @@ img{
 
  .phone{
   position: absolute;
+  right: 25%;
   top: 8%;
+}
+.phone p{
+  font-size: 13px;
 }
 
 .phone a{
-font-size: 30px;
+font-size: 20px;
 color: #000;
 text-decoration: none;
 }
@@ -259,7 +263,7 @@ input {
 /* Swiper js */
 .swiper {
   width: 100%;
-  height: 100%;
+  height: 80%;
  
   display: flex;
   justify-content: center;
