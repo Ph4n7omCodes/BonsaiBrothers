@@ -142,7 +142,7 @@ img{
 .menu-img{
   height: max-content;
   position: relative;
-  margin-top: 40px;
+  margin-top: 35px;
 }
 
 .menu-img img{
@@ -153,11 +153,11 @@ img{
 
  .phone{
   position: absolute;
-  right: 25%;
+  margin-left: 70px;
   top: 8%;
 }
 .phone p{
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .phone a{
