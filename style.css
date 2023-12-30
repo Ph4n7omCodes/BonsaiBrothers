@@ -142,6 +142,7 @@ img{
 .menu-img{
   height: max-content;
   position: relative;
+  margin-top: 40px;
 }
 
 .menu-img img{
@@ -169,7 +170,7 @@ text-decoration: none;
 label {
   cursor: pointer;
   /* border: solid 1px red;  */
-  margin-top: 200px;
+  margin-top:100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -182,6 +183,9 @@ input {
     
     /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
     .flip-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     background-color: transparent;
     /* border: 1px solid #f1f1f1; */
     height: 350px;
@@ -229,7 +233,6 @@ input {
     }
     .flip-card-front p{
       position: relative;
-      top: 20%;
      margin-right: 140px;
      padding: 2px;
       /* background-color: #737576; */
@@ -245,13 +248,11 @@ input {
 /* Style the back side */
 .flip-card-back {
   display: flex;
-  height: 300px;
-  align-items: center;
+  height: 270px;
   flex-direction: column;
   background-color: transparent;
   color: #000;
   transform: rotateY(180deg);
-  padding-top: 10px;
   font-size: 1em;
 }
 
@@ -259,14 +260,12 @@ input {
 .swiper {
   width: 100%;
   height: 100%;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.swiper {
-  width: 100%;
-  height: 80%;
-}
+
 
 
 
@@ -294,7 +293,7 @@ input {
 }
 
 .swiper-button-next, .swiper-button-prev{
- 
+
   color: #000 !important;
     fill: black !important;
     stroke: black !important;
@@ -313,29 +312,25 @@ input {
       background-color: #000;
       color: #fff;
     }
-    h2{
-     position: relative;
-     top: 20%;
-      font-family:Georgia, 'Times New Roman', Times, serif
+    h2,h3{
+      z-index: 1;
+      backface-visibility: hidden;
+      position: absolute;
     }
-    h2, h3{
-      margin: 0;
-       font-size: 20px;
-     }
-     
-   
+    h2{
+      z-index: 1;
+      bottom: 90% ;
+    }
     h3{
-      /* border: solid 1px #000;
+      top: 100%;
       width: 150px;
-     margin: 18px;
-      /* border-radius: 5px; */
+      margin: 18px;
+      border-radius: 5px; 
       color: #000;
-      --b: 2px;   /* thickness of the border */
-      --c: #000;   /* color of the border */
-      --w: 10px;  /* width of border */
-      
-    
-      border: var(--b) solid #0000; /* space for the border */
+      --b: 2px;
+      --c: #000;
+      --w: 10px;
+      border: var(--b) solid #0000;
       --_g: #0000 90deg,var(--c) 0;
       --_p: var(--w) var(--w) border-box no-repeat;
       background:
@@ -343,9 +338,50 @@ input {
         conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
         conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
         conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
+  
+    }
+    .swiper-slide h6{
+      font-size: 35px;
+      color: #fff;
+      margin-top: 0;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: #000 1px 0 10px; 
+      border-bottom: solid 1px #fff;
+    }
+   
+    /* h2{
+     position: relative;
+     top: 20%;
+      font-family:Georgia, 'Times New Roman', Times, serif
+    } */
+    /* h2, h3{
+      margin: 0;
+       font-size: 20px;
+     } */
+     
+   
+    /* h3{
+      /* border: solid 1px #000;
+      width: 150px;
+     margin: 18px;
+      /* border-radius: 5px; */
+      /* color: #000; */
+      /* --b: 2px;   thickness of the border
+      --c: #000;   color of the border
+      --w: 10px;  width of border */
       
+    
+      /* border: var(--b) solid #0000; /* space for the border */
+      /* --_g: #0000 90deg,var(--c) 0;
+      --_p: var(--w) var(--w) border-box no-repeat;
+      background:
+        conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+        conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
+        conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
+        conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
+       */
       /*Irrelevant code*/  
-      width:120px;
+      /* width:120px;
       height:100px;
       box-sizing:border-box;
       margin:15px;
@@ -353,22 +389,15 @@ input {
       font-size:20px;
       justify-content:center;
       align-items:center;
-      text-align:center;
-    }
+      text-align:center; */ 
+    /* }
 
     h3:hover{
       opacity: 0.5;
       transition: 0.2s;
-    }
+    } */ 
    
-    .swiper-slide h6{
-      font-size: 35px;
-      margin: 0;
-      color: #fff;
-      font-family: 'Times New Roman', Times, serif;
-      text-shadow: #000 1px 0 10px; 
-      border-bottom: solid 1px #fff;
-    }
+  
 
     .menu-links h6{
       font-size: 20px;
