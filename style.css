@@ -153,18 +153,20 @@ img{
 
  .phone{
   position: absolute;
-  margin-left: 70px;
-  top: 8%;
+  margin-left: 150px;
+  top: 9%;
   text-align: right;
+ 
 }
 .phone p{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .phone a{
 font-size: 20px;
 color: #000;
 text-decoration: none;
+
 }
 
      
