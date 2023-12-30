@@ -317,7 +317,7 @@
 }
 .swiper-slide a{
   color: #000;
- 
+ font-weight: 900;
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
 }
@@ -343,7 +343,8 @@
       color: #fff;
     }
     h2{
-      padding: 5px;
+     position: relative;
+     top: 20%;
       font-family:Georgia, 'Times New Roman', Times, serif
     }
     h2, h3{
