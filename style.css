@@ -155,6 +155,7 @@ img{
   position: absolute;
   margin-left: 70px;
   top: 8%;
+  text-align: right;
 }
 .phone p{
   font-size: 12px;
