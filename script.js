@@ -24,7 +24,9 @@ for (i = 0; i < links.length; i += 1) {
 }
 showSection();
 
-
+function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
 
 // const card = document.querySelector(".card__inner");
 
