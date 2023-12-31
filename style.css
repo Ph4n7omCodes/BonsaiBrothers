@@ -379,10 +379,16 @@ input {
 }
 
 .swiper-button-next, .swiper-button-prev{
-
   color: #000 !important;
     fill: black !important;
     stroke: black !important;
+}
+.mySwiper [class^="swiper-button-"]{
+  top: initial;
+  bottom: 30%;
+}
+.mySwiper [class^="swiper-button-"]::after{
+  font-size: 20px;
 }
 
   
