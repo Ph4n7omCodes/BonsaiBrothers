@@ -4,6 +4,8 @@ window.onload = function(){
   },1000);
 };
 
+
+
 function showSection() {
   var i;
   for (i = 0; i < links.length; i += 1) {
@@ -26,7 +28,13 @@ showSection();
 
 function togglePopup(){
   document.getElementById("popup-1").classList.toggle("active");
-}
+};
+
+$(window).on('load', function() {
+  $("#loader-wrapper").fadeOut(700);
+});
+
+
 
 // const card = document.querySelector(".card__inner");
 
