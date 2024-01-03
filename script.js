@@ -30,9 +30,6 @@ function togglePopup(){
   document.getElementById("popup-1").classList.toggle("active");
 };
 
-$(window).on('load', function() {
-  $("#loader-wrapper").fadeOut(700);
-});
 
 
 
