@@ -387,9 +387,11 @@ input {
 .mySwiper [class^="swiper-button-"]{
   top: initial;
   bottom: 30%;
+  padding: 10px;
 }
 .mySwiper [class^="swiper-button-"]::after{
   font-size: 20px;
+ 
 }
 
   
