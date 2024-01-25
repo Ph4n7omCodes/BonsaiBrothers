@@ -369,47 +369,107 @@ function totalCost(product){
   }
 }
 
-function displayCart(){
+function displayCart() {
   let cartItems = localStorage.getItem("productsInCart");
   cartItems = JSON.parse(cartItems);
-  let productContainer = document.querySelector
-  (".products");
+  let productContainer = document.querySelector(".products");
   let cartCost = localStorage.getItem('totalCost');
 
-  console.log(cartItems);
-  if( cartItems && productContainer) {
+  if (cartItems && productContainer) {
     productContainer.innerHTML = '';
     Object.values(cartItems).map(item => {
       productContainer.innerHTML += `
-      <div class="product">
-      <ion-icon name="close-circle"></ion-icon>
-      <img src="./img/${item.tag}.jpg">
-      <span>${item.name}</span>
-      </div>
-      <div class="quantity">
-      <ion-icon class="decrease"
-      name="arrow-dropleft-circle"></ion-icon>
-      <span>${item.inCart}</span>
-      <ion-icon class="increase"
-      name="arrow-dropright-circle"></ion-icon>
-      </div>
-      <div class="total">
-      $${item.inCart * item.price},00
-      </div>
-      `
+        <div class="product">
+          <ion-icon name="close-circle" class="remove-item" data-tag="${item.tag}"></ion-icon>
+          <img src="./img/${item.tag}.jpg">
+          <span>${item.name}</span>
+        </div>
+        <div class="quantity">
+          <ion-icon class="decrease" name="arrow-dropleft-circle" data-tag="${item.tag}"></ion-icon>
+          <span>${item.inCart}</span>
+          <ion-icon class="increase" name="arrow-dropright-circle" data-tag="${item.tag}"></ion-icon>
+        </div>
+        <div class="total">
+          $${item.inCart * item.price},00
+        </div>
+      `;
     });
 
-    productContainer.innerHTML +=`
-    <div class="basketTotalContainer">
-    <h4 class="basketTotalTitle">
-    Basket Total
-    </h4>
-    <h4 class="basketTotal">
-    $${cartCost},00
-    </h4>
-    `
-   
+    productContainer.innerHTML += `
+      <div class="basketTotalContainer">
+        <h4 class="basketTotalTitle">
+          Basket Total
+        </h4>
+        <h4 class="basketTotal">
+          $${cartCost},00
+        </h4>
+      </div>
+    `;
 
+    // Add event listeners to the remove and quantity icons
+    const removeIcons = document.querySelectorAll('.remove-item');
+    removeIcons.forEach(icon => {
+      icon.addEventListener('click', () => {
+        removeItem(icon.dataset.tag);
+      });
+    });
+
+    const decreaseIcons = document.querySelectorAll('.decrease');
+    decreaseIcons.forEach(icon => {
+      icon.addEventListener('click', () => {
+        updateQuantity(icon.dataset.tag, -1);
+      });
+    });
+
+    const increaseIcons = document.querySelectorAll('.increase');
+    increaseIcons.forEach(icon => {
+      icon.addEventListener('click', () => {
+        updateQuantity(icon.dataset.tag, 1);
+      });
+    });
+  }
+}
+
+function removeItem(tag) {
+  let cartItems = localStorage.getItem('productsInCart');
+  cartItems = JSON.parse(cartItems);
+
+  if (cartItems && cartItems[tag]) {
+    const item = cartItems[tag];
+    const cartNumbers = parseInt(localStorage.getItem('cartNumbers'));
+    const totalCost = parseInt(localStorage.getItem('totalCost'));
+
+    localStorage.setItem('cartNumbers', cartNumbers - item.inCart);
+    localStorage.setItem('totalCost', totalCost - (item.price * item.inCart));
+    delete cartItems[tag];
+    localStorage.setItem('productsInCart', JSON.stringify(cartItems));
+
+    displayCart();
+    onLoadCartNumbers();
+  }
+}
+
+function updateQuantity(tag, amount) {
+  let cartItems = localStorage.getItem('productsInCart');
+  cartItems = JSON.parse(cartItems);
+
+  if (cartItems && cartItems[tag]) {
+    const item = cartItems[tag];
+    const cartNumbers = parseInt(localStorage.getItem('cartNumbers'));
+    const totalCost = parseInt(localStorage.getItem('totalCost'));
+
+    item.inCart += amount;
+    localStorage.setItem('cartNumbers', cartNumbers + amount);
+    localStorage.setItem('totalCost', totalCost + (item.price * amount));
+
+    if (item.inCart === 0) {
+      delete cartItems[tag];
+    }
+
+    localStorage.setItem('productsInCart', JSON.stringify(cartItems));
+
+    displayCart();
+    onLoadCartNumbers();
   }
 }
 
