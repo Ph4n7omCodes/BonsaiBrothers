@@ -1,3 +1,7 @@
+
+
+
+
 let carts = document.querySelectorAll('.add-cart');
 
 let products = [
@@ -403,7 +407,7 @@ function displayCart() {
         <h4 class="basketTotal">
           $${cartCost},00
         </h4>
-        <a href="mailto:supangel@icloud.com?subject=My%20Cart&body=${prepareCartEmail()}">Send</a>
+        <a href="mailto:bonsaibrothersadmin@proton.me?subject=My%20Cart&body=${prepareCartEmail()}">Send</a>
       </div>
     `;
 
@@ -492,10 +496,6 @@ function prepareCartEmail() {
 
   return encodeURIComponent(emailContent);
 }
-
-
-
-
 
 window.onload = function(){
   setTimeout(function(){
