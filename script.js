@@ -383,19 +383,21 @@ function displayCart() {
     productContainer.innerHTML = '';
     Object.values(cartItems).map(item => {
       productContainer.innerHTML += `
-        <div class="product">
-          <ion-icon name="close-circle" class="remove-item" data-tag="${item.tag}"></ion-icon>
-          <img src="img/${item.tag}.jpg">
-          <span>${item.name}</span>
-        </div>
-        <div class="quantity">
-          <ion-icon class="decrease" name="arrow-dropleft-circle" data-tag="${item.tag}"></ion-icon>
-          <span>${item.inCart}</span>
-          <ion-icon class="increase" name="arrow-dropright-circle" data-tag="${item.tag}"></ion-icon>
-        </div>
-        <div class="total">
-          $${item.inCart * item.price},00
-        </div>
+      <div class="cart-item">
+      <div class="product">
+        <ion-icon name="close-circle" class="remove-item" data-tag="${item.tag}"></ion-icon>
+        <img src="img/${item.tag}.jpg">
+        <span>${item.name}</span>
+      </div>
+      <div class="quantity">
+        <ion-icon class="decrease" name="arrow-dropleft-circle" data-tag="${item.tag}"></ion-icon>
+        <span>${item.inCart}</span>
+        <ion-icon class="increase" name="arrow-dropright-circle" data-tag="${item.tag}"></ion-icon>
+      </div>
+      <div class="total">
+        $${item.inCart * item.price},00
+      </div>
+    </div>
       `;
     });
 

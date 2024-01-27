@@ -242,7 +242,7 @@ button:hover{
 .cart-btn ion-icon {
   vertical-align: bottom;
   padding-right: 5px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 
@@ -336,8 +336,8 @@ input {
     }
     .flip-card-inner, .flip-card-front img{
       position: relative;
-      width: 200px;
-      height: 200px;
+      width: 250px;
+      height: 250px;
       border-radius: 7px;
       backface-visibility: hidden;
     }
