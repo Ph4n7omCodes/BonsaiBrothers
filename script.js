@@ -5,7 +5,8 @@ let products = [
     name: 'Puppy Chow',
     tag: 'Puppychow',
     price: 100,
-    inCart: 0
+    inCart: 0,
+    image: 'img/Puppychow.JPG',
   },
   {
     name: 'Tiramisu',
@@ -403,6 +404,7 @@ function displayCart() {
         <h4 class="basketTotal">
           $${cartCost},00
         </h4>
+        <a href="mailto:supangel@icloud.com?subject=My%20Cart&body=${prepareCartEmail()}">Email My Cart</a>
       </div>
     `;
 
@@ -476,6 +478,21 @@ function updateQuantity(tag, amount) {
 onLoadCartNumbers();
 displayCart();
 
+function prepareCartEmail() {
+  let cartItems = localStorage.getItem('productsInCart');
+  cartItems = JSON.parse(cartItems);
+  let emailContent = "Here is the content of my cart:\n\n";
+  let totalCost = 0;
+
+  Object.values(cartItems).forEach(item => {
+    emailContent += `${item.name} - ${item.inCart} item(s) - $${item.price * item.inCart}\n`;
+    totalCost += item.price * item.inCart;
+  });
+
+  emailContent += `\nTotal cost: $${totalCost}\n`;
+
+  return encodeURIComponent(emailContent);
+}
 
 
 
