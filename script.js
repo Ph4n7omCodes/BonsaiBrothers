@@ -6,7 +6,6 @@ let products = [
     tag: 'Puppychow',
     price: 100,
     inCart: 0,
-    image: 'img/Puppychow.JPG',
   },
   {
     name: 'Tiramisu',
@@ -481,7 +480,7 @@ displayCart();
 function prepareCartEmail() {
   let cartItems = localStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
-  let emailContent = "Here is the content of my cart:\n\n";
+  let emailContent = "Add Address We Will Respond With A Time :\n\n";
   let totalCost = 0;
 
   Object.values(cartItems).forEach(item => {
