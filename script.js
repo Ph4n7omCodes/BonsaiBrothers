@@ -403,7 +403,7 @@ function displayCart() {
         <h4 class="basketTotal">
           $${cartCost},00
         </h4>
-        <a href="mailto:supangel@icloud.com?subject=My%20Cart&body=${prepareCartEmail()}">Email My Cart</a>
+        <a href="mailto:supangel@icloud.com?subject=My%20Cart&body=${prepareCartEmail()}">Send</a>
       </div>
     `;
 
