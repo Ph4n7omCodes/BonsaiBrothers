@@ -317,11 +317,8 @@ function onLoadCartNumbers() {
 }
 
 function cartNumbers(product){
- 
   let productNumbers = localStorage.getItem('cartNumbers');
-
   productNumbers = parseInt(productNumbers);
-
   if(productNumbers) {
     localStorage.setItem('cartNumbers', productNumbers + 1);
     document.querySelector('.cart-btn span').textContent = productNumbers + 1;
@@ -329,23 +326,19 @@ function cartNumbers(product){
     localStorage.setItem('cartNumbers', 1);
     document.querySelector('.cart-btn span').textContent = 1;
   }
-
   setItems(product);
 }
 
 function setItems(product) {
   let cartItems = localStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
-  
   if(cartItems != null) {
-
     if(cartItems[product.tag] == undefined) {
       cartItems = {
         ...cartItems,
         [product.tag]: product
       }
     }
-
     cartItems[product.tag].inCart += 1;
   }else{
     product.inCart = 1;
@@ -353,17 +346,11 @@ function setItems(product) {
       [product.tag]: product
     }
   }
-
-  
   localStorage.setItem("productsInCart", JSON.stringify (cartItems));
 }
 
 function totalCost(product){
   let cartCost = localStorage.getItem('totalCost');
-
-  console.log("cost", cartCost);
-  console.log(typeof cartCost);
-
   if(cartCost != null) {
     cartCost = parseInt(cartCost);
     localStorage.setItem("totalCost", cartCost +
@@ -445,7 +432,6 @@ function removeItem(tag) {
     const item = cartItems[tag];
     const cartNumbers = parseInt(localStorage.getItem('cartNumbers'));
     const totalCost = parseInt(localStorage.getItem('totalCost'));
-
     localStorage.setItem('cartNumbers', cartNumbers - item.inCart);
     localStorage.setItem('totalCost', totalCost - (item.price * item.inCart));
     delete cartItems[tag];
@@ -464,17 +450,13 @@ function updateQuantity(tag, amount) {
     const item = cartItems[tag];
     const cartNumbers = parseInt(localStorage.getItem('cartNumbers'));
     const totalCost = parseInt(localStorage.getItem('totalCost'));
-
     item.inCart += amount;
     localStorage.setItem('cartNumbers', cartNumbers + amount);
     localStorage.setItem('totalCost', totalCost + (item.price * amount));
-
     if (item.inCart === 0) {
       delete cartItems[tag];
     }
-
     localStorage.setItem('productsInCart', JSON.stringify(cartItems));
-
     displayCart();
     onLoadCartNumbers();
   }
@@ -504,8 +486,6 @@ window.onload = function(){
     document.getElementById("fadein").remove();
   },1000);
 };
-
-
 
 function showSection() {
   var i;
