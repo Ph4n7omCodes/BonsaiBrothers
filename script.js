@@ -381,7 +381,7 @@ function displayCart() {
       productContainer.innerHTML += `
         <div class="product">
           <ion-icon name="close-circle" class="remove-item" data-tag="${item.tag}"></ion-icon>
-          <img src="./img/${item.tag}.jpg">
+          <img src="img/${item.tag}.jpg">
           <span>${item.name}</span>
         </div>
         <div class="quantity">
@@ -480,7 +480,7 @@ displayCart();
 function prepareCartEmail() {
   let cartItems = localStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
-  let emailContent = "Add Address We Will Respond With A Time :\n\n";
+  let emailContent = "Add Your Address And We Will Respond With A Time :\n\n";
   let totalCost = 0;
 
   Object.values(cartItems).forEach(item => {
