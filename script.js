@@ -386,7 +386,7 @@ function displayCart() {
       <div class="cart-item">
       <div class="product">
         <ion-icon name="close-circle" class="remove-item" data-tag="${item.tag}"></ion-icon>
-        <img src="img/${item.tag}.jpg">
+        <img src="img/${item.tag}.JPG" alt="${item.name}">
         <span>${item.name}</span>
       </div>
       <div class="quantity">
