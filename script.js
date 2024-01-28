@@ -1,9 +1,9 @@
-
-
+if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
+  sessionStorage.clear();
+}
 
 
 let carts = document.querySelectorAll('.add-cart');
-
 let products = [
   {
     name: 'Puppy Chow',
@@ -309,7 +309,7 @@ for (let i=0; i < carts.length; i++) {
 }
 
 function onLoadCartNumbers() {
-  let productNumbers = localStorage.getItem('cartNumbers');
+  let productNumbers = sessionStorage.getItem('cartNumbers');
 
   if(productNumbers) {
     document.querySelector('.cart-btn span').textContent = productNumbers;
@@ -317,20 +317,20 @@ function onLoadCartNumbers() {
 }
 
 function cartNumbers(product){
-  let productNumbers = localStorage.getItem('cartNumbers');
+  let productNumbers = sessionStorage.getItem('cartNumbers');
   productNumbers = parseInt(productNumbers);
   if(productNumbers) {
-    localStorage.setItem('cartNumbers', productNumbers + 1);
+    sessionStorage.setItem('cartNumbers', productNumbers + 1);
     document.querySelector('.cart-btn span').textContent = productNumbers + 1;
   } else {
-    localStorage.setItem('cartNumbers', 1);
+    sessionStorage.setItem('cartNumbers', 1);
     document.querySelector('.cart-btn span').textContent = 1;
   }
   setItems(product);
 }
 
 function setItems(product) {
-  let cartItems = localStorage.getItem('productsInCart');
+  let cartItems = sessionStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
   if(cartItems != null) {
     if(cartItems[product.tag] == undefined) {
@@ -346,25 +346,25 @@ function setItems(product) {
       [product.tag]: product
     }
   }
-  localStorage.setItem("productsInCart", JSON.stringify (cartItems));
+  sessionStorage.setItem("productsInCart", JSON.stringify (cartItems));
 }
 
 function totalCost(product){
-  let cartCost = localStorage.getItem('totalCost');
+  let cartCost = sessionStorage.getItem('totalCost');
   if(cartCost != null) {
     cartCost = parseInt(cartCost);
-    localStorage.setItem("totalCost", cartCost +
+    sessionStorage.setItem("totalCost", cartCost +
     product.price);
   }else {
-    localStorage.setItem("totalCost", product.price);
+    sessionStorage.setItem("totalCost", product.price);
   }
 }
 
 function displayCart() {
-  let cartItems = localStorage.getItem("productsInCart");
+  let cartItems = sessionStorage.getItem("productsInCart");
   cartItems = JSON.parse(cartItems);
   let productContainer = document.querySelector(".products");
-  let cartCost = localStorage.getItem('totalCost');
+  let cartCost = sessionStorage.getItem('totalCost');
 
   if (cartItems && productContainer) {
     productContainer.innerHTML = '';
@@ -425,17 +425,17 @@ function displayCart() {
 }
 
 function removeItem(tag) {
-  let cartItems = localStorage.getItem('productsInCart');
+  let cartItems = sessionStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
 
   if (cartItems && cartItems[tag]) {
     const item = cartItems[tag];
-    const cartNumbers = parseInt(localStorage.getItem('cartNumbers'));
-    const totalCost = parseInt(localStorage.getItem('totalCost'));
-    localStorage.setItem('cartNumbers', cartNumbers - item.inCart);
-    localStorage.setItem('totalCost', totalCost - (item.price * item.inCart));
+    const cartNumbers = parseInt(sessionStorage.getItem('cartNumbers'));
+    const totalCost = parseInt(sessionStorage.getItem('totalCost'));
+    sessionStorage.setItem('cartNumbers', cartNumbers - item.inCart);
+    sessionStorage.setItem('totalCost', totalCost - (item.price * item.inCart));
     delete cartItems[tag];
-    localStorage.setItem('productsInCart', JSON.stringify(cartItems));
+    sessionStorage.setItem('productsInCart', JSON.stringify(cartItems));
 
     displayCart();
     onLoadCartNumbers();
@@ -443,20 +443,20 @@ function removeItem(tag) {
 }
 
 function updateQuantity(tag, amount) {
-  let cartItems = localStorage.getItem('productsInCart');
+  let cartItems = sessionStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
 
   if (cartItems && cartItems[tag]) {
     const item = cartItems[tag];
-    const cartNumbers = parseInt(localStorage.getItem('cartNumbers'));
-    const totalCost = parseInt(localStorage.getItem('totalCost'));
+    const cartNumbers = parseInt(sessionStorage.getItem('cartNumbers'));
+    const totalCost = parseInt(sessionStorage.getItem('totalCost'));
     item.inCart += amount;
-    localStorage.setItem('cartNumbers', cartNumbers + amount);
-    localStorage.setItem('totalCost', totalCost + (item.price * amount));
+    sessionStorage.setItem('cartNumbers', cartNumbers + amount);
+    sessionStorage.setItem('totalCost', totalCost + (item.price * amount));
     if (item.inCart === 0) {
       delete cartItems[tag];
     }
-    localStorage.setItem('productsInCart', JSON.stringify(cartItems));
+    sessionStorage.setItem('productsInCart', JSON.stringify(cartItems));
     displayCart();
     onLoadCartNumbers();
   }
@@ -466,7 +466,7 @@ onLoadCartNumbers();
 displayCart();
 
 function prepareCartEmail() {
-  let cartItems = localStorage.getItem('productsInCart');
+  let cartItems = sessionStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
   let emailContent = "Add Your Address And We Will Respond With A Time :\n\n";
   let totalCost = 0;
