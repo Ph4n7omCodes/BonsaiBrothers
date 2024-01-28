@@ -14,205 +14,205 @@ let products = [
   {
     name: 'Tiramisu',
     tag: 'comingsoon',
-    price: 260,
+    price: 130,
     inCart: 0
   },
   {
     name: 'Tropical Cherries',
     tag: 'Tropicanacherry',
-    price: 260,
+    price: 130,
     inCart: 0
   },
   {
     name: 'Pure Michigan',
     tag: 'Puremichigan',
-    price: 240,
+    price: 120,
     inCart: 0
   },
   {
     name: 'Zour Milk',
     tag: 'Zourmilk',
-    price: 240,
+    price: 120,
     inCart: 0
   },
   {
     name: 'Strawberry Cheesecake',
     tag: 'Strawberrycheesecake',
-    price: 240,
+    price: 120,
     inCart: 0
   },
   {
     name: 'Cherry Payton',
     tag: 'Cherrypayton',
-    price: 240,
+    price: 120,
     inCart: 0
   },
   {
     name: 'Purple Octane',
     tag: 'Purpleoctane',
-    price: 240,
+    price: 120,
     inCart: 0
   },
   {
     name: 'Zlushie',
     tag: 'Zlushies',
-    price: 240,
+    price: 120,
     inCart: 0
   },
   {
     name: 'Strawberry Runtz',
     tag: 'Strawberryruntz',
-    price: 240,
+    price: 120,
     inCart: 0
   },
   {
     name: 'Animal Mints',
     tag: 'Animalmints',
-    price: 220,
+    price: 110,
     inCart: 0
   },
   {
     name: 'Oreos',
     tag: 'oreos',
-    price: 220,
+    price: 110,
     inCart: 0
   },
   {
     name: 'Pop Rocks',
     tag: 'PopRocks',
-    price: 220,
+    price: 110,
     inCart: 0
   },
   {
     name: 'Truffles',
     tag: 'Truffles',
-    price: 220,
+    price: 110,
     inCart: 0
   },
   {
     name: 'Cheetah Piss',
     tag: 'CheetahPiss',
-    price: 220,
+    price: 110,
     inCart: 0
   },
   {
     name: 'RZA',
     tag: 'RZA',
-    price: 220,
+    price: 110,
     inCart: 0
   },
   {
     name: 'Lava Cake',
     tag: 'Lavacake',
-    price: 200,
+    price: 100,
     inCart: 0
   },
   {
     name: 'Birthday Cake',
     tag: 'Birthdaycake',
-    price: 200,
+    price: 100,
     inCart: 0
   },
   {
     name: 'Blue Diesel',
     tag: 'comingsoon',
-    price: 200,
+    price: 100,
     inCart: 0
   },
   {
     name: 'Jelly Belly',
     tag: 'jellybelly',
-    price: 200,
+    price: 100,
     inCart: 0
   },
   {
     name: 'Blue Guava',
     tag: 'Blueguava',
-    price: 200,
+    price: 100,
     inCart: 0
   },
   {
     name: 'Biscotti',
     tag: 'Biscotti',
-    price: 200,
+    price: 100,
     inCart: 0
   },
   {
     name: 'Zpie',
     tag: 'Zpie',
-    price: 200,
+    price: 100,
     inCart: 0
   },
   {
     name: 'Jellybean',
     tag: 'Jellybean',
-    price: 180,
+    price: 90,
     inCart: 0
   },
   {
     name: 'Black Cherry Cake',
     tag: 'Blackcherrycake',
-    price: 180,
+    price: 90,
     inCart: 0
   },
   {
     name: 'Gumbo',
     tag: 'Gumbo',
-    price: 180,
+    price: 90,
     inCart: 0
   },
   {
     name: 'Dosilato',
     tag: 'Dosilato',
-    price: 180,
+    price: 90,
     inCart: 0
   },
   {
     name: 'Cake Pop',
     tag: 'Cakepop',
-    price: 180,
+    price: 90,
     inCart: 0
   },
   {
     name: 'Tarts',
     tag: 'Tarts',
-    price: 180,
+    price: 90,
     inCart: 0
   },
   {
     name: 'Area 41',
     tag: 'Area41',
-    price: 180,
+    price: 90,
     inCart: 0
   },
   {
     name: 'Sherbet Cake',
     tag: 'Sherbetcake',
-    price: 180,
+    price: 90,
     inCart: 0
   },
   {
     name: 'Frosted FLakes',
     tag: 'comingsoon',
-    price: 160,
+    price: 80,
     inCart: 0
   },
   {
     name: 'Ghostface',
     tag: 'Ghostface',
-    price: 160,
+    price: 80,
     inCart: 0
   },
   {
     name: 'Gelato',
     tag: 'Gelato',
-    price: 160,
+    price: 80,
     inCart: 0
   },
   {
     name: 'Triangle Mintz',
     tag: 'comingsoon',
-    price: 120,
+    price: 60,
     inCart: 0
   },
   {
