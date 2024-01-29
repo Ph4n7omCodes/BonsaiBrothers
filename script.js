@@ -468,7 +468,7 @@ displayCart();
 function prepareCartEmail() {
   let cartItems = sessionStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
-  let emailContent = "Please Leave Name: Number: Address: Delivery Instructions: \n\n";
+  let emailContent = "Please Leave Name: Number: Address: Delivery Instructions:\n\n";
   let totalCost = 0;
 
   Object.values(cartItems).forEach(item => {
