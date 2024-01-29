@@ -13,7 +13,7 @@ let products = [
   },
   {
     name: 'Tiramisu',
-    tag: 'comingsoon',
+    tag: 'Tiramisucomingsoon',
     price: 130,
     inCart: 0
   },
@@ -115,7 +115,7 @@ let products = [
   },
   {
     name: 'Blue Diesel',
-    tag: 'comingsoon',
+    tag: 'Bluedieselcomingsoon',
     price: 100,
     inCart: 0
   },
@@ -193,7 +193,7 @@ let products = [
   },
   {
     name: 'Frosted FLakes',
-    tag: 'comingsoon',
+    tag: 'Frostedflakescomingsoon',
     price: 80,
     inCart: 0
   },
@@ -211,13 +211,13 @@ let products = [
   },
   {
     name: 'Triangle Mintz',
-    tag: 'comingsoon',
+    tag: 'Trianglemintzcomingsoon',
     price: 60,
     inCart: 0
   },
   {
     name: 'Hash Live Rosin',
-    tag: 'comingsoon',
+    tag: 'Hashliverosincomingsoon',
     price: 40,
     inCart: 0
   },
@@ -234,8 +234,8 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Sauced Diamonds',
-    tag: 'comingsoon',
+    name: 'Sauced Diamond',
+    tag: 'Sauceddiamondscomingsoon',
     price: 40,
     inCart: 0
   },
@@ -246,9 +246,15 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Peach Cobbler',
-    tag: 'Papayadelight',
+    name: 'Peach Cobbler 7g',
+    tag: 'Peachcobbler',
     price: 100,
+    inCart: 0
+  },
+  {
+    name: 'Crumble',
+    tag: 'Crumble',
+    price: 200,
     inCart: 0
   },
   {
@@ -264,7 +270,7 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Bonsai Disposables 1G',
+    name: 'Bonsai Disposable 1G',
     tag: 'bonsaivape',
     price: 30,
     inCart: 0
@@ -276,8 +282,8 @@ let products = [
     inCart: 0
   },
   {
-    name: '100mg Live Resin Gummie',
-    tag: 'comingsoon',
+    name: '100mg Live Resin Gummies',
+    tag: '100mgcomingsoon',
     price: 20,
     inCart: 0
   },
@@ -296,6 +302,42 @@ let products = [
   {
     name: 'Mushroom Bar',
     tag: 'Mushroomchocolatefull',
+    price: 100,
+    inCart: 0
+  },
+  {
+    name: '2 Stain Premium Indoor Mix',
+    tag: 'Mysterybag',
+    price: 300,
+    inCart: 0
+  },
+  {
+    name: 'Hash Live Rosin 3.5g',
+    tag: 'Hashliverosin3.5comingsoon',
+    price: 140,
+    inCart: 0
+  },
+  {
+    name: 'Goldline Rosin 3.5g',
+    tag: 'Goldline3.5',
+    price: 140,
+    inCart: 0
+  },
+  {
+    name: 'Sauced Diamonds 3.5g',
+    tag: 'Sauceddiamond3.5comingsoon',
+    price: 100,
+    inCart: 0
+  },
+  {
+    name: 'Peach Cobbler 1/2oz',
+    tag: 'Peachcobbler2',
+    price: 150,
+    inCart: 0
+  },
+  {
+    name: '4 Bonsai Disposables 1G',
+    tag: 'bonsaivape2',
     price: 100,
     inCart: 0
   },
