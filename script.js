@@ -271,7 +271,7 @@ let products = [
   },
   {
     name: 'Bonsai Disposable 1G',
-    tag: 'Bonsaivape',
+    tag: 'Bonsaivapes',
     price: 30,
     inCart: 0
   },
