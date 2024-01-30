@@ -271,7 +271,7 @@ let products = [
   },
   {
     name: 'Bonsai Disposable 1G',
-    tag: 'Bonsaivapes',
+    tag: 'Bonsaidisposable',
     price: 30,
     inCart: 0
   },
@@ -303,6 +303,12 @@ let products = [
     name: 'Mushroom Bar',
     tag: 'Mushroomchocolatefull',
     price: 100,
+    inCart: 0
+  },
+   {
+    name: '4 Stains Premium Indoor oz',
+    tag: '4strainindoor',
+    price: 200,
     inCart: 0
   },
   {
