@@ -120,3 +120,50 @@ a:hover {
   background-color: #fff;
   transition: 1s;
 }
+
+  /* Style for form popup */
+  .form-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+
+  /* Style for form inputs */
+  .form-popup input[type="text"],
+  .form-popup textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* Style for form submit button */
+  .form-popup button {
+    background-color: #000;
+    color:#737576;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  /* Style for form close button */
+  .form-popup-close {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+  }
+
+  

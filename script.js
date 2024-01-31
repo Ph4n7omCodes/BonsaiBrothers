@@ -6,243 +6,243 @@ if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
 let carts = document.querySelectorAll('.add-cart');
 let products = [
   {
-    name: 'Puppy Chow',
+    name: 'Puppy Chow 1/4oz',
     tag: 'Puppychow',
     price: 100,
     inCart: 0,
   },
   {
-    name: 'Tiramisu',
+    name: 'Tiramisu 1/2oz',
     tag: 'Tiramisucomingsoon',
     price: 130,
     inCart: 0
   },
   {
-    name: 'Tropical Cherries',
+    name: 'Tropical Cherries 1/2oz',
     tag: 'Tropicanacherry',
     price: 130,
     inCart: 0
   },
   {
-    name: 'Pure Michigan',
+    name: 'Pure Michigan 1/2oz',
     tag: 'Puremichigan',
     price: 120,
     inCart: 0
   },
   {
-    name: 'Zour Milk',
+    name: 'Zour Milk 1/2oz',
     tag: 'Zourmilk',
     price: 120,
     inCart: 0
   },
   {
-    name: 'Strawberry Cheesecake',
+    name: 'Strawberry Cheesecake 1/2oz',
     tag: 'Strawberrycheesecake',
     price: 120,
     inCart: 0
   },
   {
-    name: 'Cherry Payton',
+    name: 'Cherry Payton 1/2oz',
     tag: 'Cherrypayton',
     price: 120,
     inCart: 0
   },
   {
-    name: 'Purple Octane',
+    name: 'Purple Octane 1/2oz',
     tag: 'Purpleoctane',
     price: 120,
     inCart: 0
   },
   {
-    name: 'Zlushie',
+    name: 'Zlushie 1/2oz',
     tag: 'Zlushies',
     price: 120,
     inCart: 0
   },
   {
-    name: 'Strawberry Runtz',
+    name: 'Strawberry Runtz 1/2oz',
     tag: 'Strawberryruntz',
     price: 120,
     inCart: 0
   },
   {
-    name: 'Animal Mints',
+    name: 'Animal Mints 1/2oz',
     tag: 'Animalmints',
     price: 110,
     inCart: 0
   },
   {
-    name: 'Oreos',
+    name: 'Oreos 1/2oz',
     tag: 'oreos',
     price: 110,
     inCart: 0
   },
   {
-    name: 'Pop Rocks',
+    name: 'Pop Rocks 1/2oz',
     tag: 'PopRocks',
     price: 110,
     inCart: 0
   },
   {
-    name: 'Truffles',
+    name: 'Truffles 1/2oz',
     tag: 'Truffles',
     price: 110,
     inCart: 0
   },
   {
-    name: 'Cheetah Piss',
+    name: 'Cheetah Piss 1/2oz',
     tag: 'CheetahPiss',
     price: 110,
     inCart: 0
   },
   {
-    name: 'RZA',
+    name: 'RZA 1/2oz',
     tag: 'RZA',
     price: 110,
     inCart: 0
   },
   {
-    name: 'Lava Cake',
+    name: 'Lava Cake 1/2oz',
     tag: 'Lavacake',
     price: 100,
     inCart: 0
   },
   {
-    name: 'Birthday Cake',
+    name: 'Birthday Cake 1/2oz',
     tag: 'Birthdaycake',
     price: 100,
     inCart: 0
   },
   {
-    name: 'Blue Diesel',
+    name: 'Blue Diesel 1/2oz',
     tag: 'Bluedieselcomingsoon',
     price: 100,
     inCart: 0
   },
   {
-    name: 'Jelly Belly',
+    name: 'Jelly Belly 1/2oz',
     tag: 'jellybelly',
     price: 100,
     inCart: 0
   },
   {
-    name: 'Blue Guava',
+    name: 'Blue Guava 1/2oz',
     tag: 'Blueguava',
     price: 100,
     inCart: 0
   },
   {
-    name: 'Biscotti',
+    name: 'Biscotti 1/2oz',
     tag: 'Biscotti',
     price: 100,
     inCart: 0
   },
   {
-    name: 'Zpie',
+    name: 'Zpie 1/2oz',
     tag: 'Zpie',
     price: 100,
     inCart: 0
   },
   {
-    name: 'Jellybean',
+    name: 'Jellybean 1/2oz',
     tag: 'Jellybean',
     price: 90,
     inCart: 0
   },
   {
-    name: 'Black Cherry Cake',
+    name: 'Black Cherry Cake 1/2oz',
     tag: 'Blackcherrycake',
     price: 90,
     inCart: 0
   },
   {
-    name: 'Gumbo',
+    name: 'Gumbo 1/2oz',
     tag: 'Gumbo',
     price: 90,
     inCart: 0
   },
   {
-    name: 'Dosilato',
+    name: 'Dosilato 1/2oz',
     tag: 'Dosilato',
     price: 90,
     inCart: 0
   },
   {
-    name: 'Cake Pop',
+    name: 'Cake Pop 1/2oz',
     tag: 'Cakepop',
     price: 90,
     inCart: 0
   },
   {
-    name: 'Tarts',
+    name: 'Tarts 1/2oz',
     tag: 'Tarts',
     price: 90,
     inCart: 0
   },
   {
-    name: 'Area 41',
+    name: 'Area 41 1/2oz',
     tag: 'Area41',
     price: 90,
     inCart: 0
   },
   {
-    name: 'Sherbet Cake',
+    name: 'Sherbet Cake 1/2oz',
     tag: 'Sherbetcake',
     price: 90,
     inCart: 0
   },
   {
-    name: 'Frosted FLakes',
+    name: 'Frosted FLakes 1/2oz',
     tag: 'Frostedflakescomingsoon',
     price: 80,
     inCart: 0
   },
   {
-    name: 'Ghostface',
+    name: 'Ghostface 1/2oz',
     tag: 'Ghostface',
     price: 80,
     inCart: 0
   },
   {
-    name: 'Gelato',
+    name: 'Gelato 1/2oz',
     tag: 'Gelato',
     price: 80,
     inCart: 0
   },
   {
-    name: 'Triangle Mintz',
+    name: 'Triangle Mintz 1/2oz',
     tag: 'Trianglemintzcomingsoon',
     price: 60,
     inCart: 0
   },
   {
-    name: 'Hash Live Rosin',
+    name: 'Hash Live Rosin 1g',
     tag: 'Hashliverosincomingsoon',
     price: 40,
     inCart: 0
   },
   {
-    name: 'Gold Line Rosin',
+    name: 'Gold Line Rosin 1g',
     tag: 'Goldline',
     price: 40,
     inCart: 0
   },
   {
-    name: 'Tier 1 Rosin',
+    name: 'Tier 1 Rosin 2g',
     tag: 'Tier1',
     price: 130,
     inCart: 0
   },
   {
-    name: 'Sauced Diamond',
+    name: 'Sauced Diamond 1g',
     tag: 'Sauceddiamondscomingsoon',
     price: 40,
     inCart: 0
   },
   {
-    name: 'Papaya Delight',
+    name: 'Papaya Delight 1/2oz',
     tag: 'Papayadelight',
-    price: 250,
+    price: 125,
     inCart: 0
   },
   {
@@ -252,15 +252,15 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Crumble',
+    name: 'Crumble 1/2oz',
     tag: 'Crumble',
-    price: 200,
+    price: 100,
     inCart: 0
   },
   {
-    name: 'Sugar Wax',
+    name: 'Sugar Wax 1/2oz',
     tag: 'Sugarwax',
-    price: 200,
+    price: 100,
     inCart: 0
   },
   {
@@ -424,21 +424,21 @@ function displayCart() {
     productContainer.innerHTML = '';
     Object.values(cartItems).map(item => {
       productContainer.innerHTML += `
-      <div class="cart-item">
-      <div class="product">
-        <ion-icon name="close-circle" class="remove-item" data-tag="${item.tag}"></ion-icon>
-        <img src="./img/${item.tag}.JPG" alt="${item.name}">
-        <span>${item.name}</span>
-      </div>
-      <div class="quantity">
-        <ion-icon class="decrease" name="arrow-dropleft-circle" data-tag="${item.tag}"></ion-icon>
-        <span>${item.inCart}</span>
-        <ion-icon class="increase" name="arrow-dropright-circle" data-tag="${item.tag}"></ion-icon>
-      </div>
-      <div class="total">
-        $${item.inCart * item.price},00
-      </div>
-    </div>
+        <div class="cart-item">
+          <div class="product">
+            <ion-icon name="close-circle" class="remove-item" data-tag="${item.tag}"></ion-icon>
+            <img src="./img/${item.tag}.JPG" alt="${item.name}">
+            <span>${item.name}</span>
+          </div>
+          <div class="quantity">
+            <ion-icon class="decrease" name="arrow-dropleft-circle" data-tag="${item.tag}"></ion-icon>
+            <span>${item.inCart}</span>
+            <ion-icon class="increase" name="arrow-dropright-circle" data-tag="${item.tag}"></ion-icon>
+          </div>
+          <div class="total">
+            $${item.inCart * item.price},00
+          </div>
+        </div>
       `;
     });
 
@@ -450,7 +450,7 @@ function displayCart() {
         <h4 class="basketTotal">
           $${cartCost},00
         </h4>
-        <a href="mailto:bonsaibrothersadmin@proton.me?subject=My%20Cart&body=${prepareCartEmail()}">Send</a>
+        <button onclick="showFormPopup()">Place Order</button>
       </div>
     `;
 
@@ -519,21 +519,131 @@ function updateQuantity(tag, amount) {
 onLoadCartNumbers();
 displayCart();
 
-function prepareCartEmail() {
-  let cartItems = sessionStorage.getItem('productsInCart');
+function prepareCartEmail(name, number, address, deliveryInstructions, cartItems) {
+  let emailContent = `Name:\t${name}\nNumber:\t${number}\nAddress:\t${address}\nDelivery Instructions:\t${deliveryInstructions}\nCart Items:\n`;
+  let totalPrice = 0; // Initialize total price variable
+  
+  Object.values(cartItems).forEach(item => {
+    const itemTotalPrice = item.price * item.inCart;
+    totalPrice += itemTotalPrice; // Add item total price to the total price variable
+    emailContent += `${item.name}\t- ${item.inCart} item(s)\t- $${itemTotalPrice.toFixed(2)}\n`;
+  });
+  
+  emailContent += `Total Price:\t$${totalPrice.toFixed(2)}\n`; // Add total price to the email content
+  
+  return emailContent;
+}
+
+function showFormPopup() {
+  // Create a form popup container
+  const formPopupContainer = document.createElement("div");
+  formPopupContainer.classList.add("form-popup");
+
+  
+// Create form inputs
+const nameInput = document.createElement("input");
+nameInput.setAttribute("type", "text");
+nameInput.setAttribute("placeholder", "Name *");
+nameInput.setAttribute("required", "required");
+nameInput.classList.add("required-field");
+
+  // Create a paragraph element for the message
+  const callMessage = document.createElement("p");
+  callMessage.textContent = "We Will Call You When Order Is Placed.";
+
+  // Append the message and the name input to the form popup container
+  formPopupContainer.appendChild(callMessage);
+  formPopupContainer.appendChild(nameInput);
+
+const numberInput = document.createElement("input");
+numberInput.setAttribute("type", "text");
+numberInput.setAttribute("placeholder", "Phone Number *");
+numberInput.setAttribute("required", "required");
+numberInput.classList.add("required-field");
+
+const addressInput = document.createElement("input");
+addressInput.setAttribute("type", "text");
+addressInput.setAttribute("placeholder", "Address *");
+addressInput.setAttribute("required", "required");
+addressInput.classList.add("required-field");
+
+  const deliveryInstructionsTextarea = document.createElement("textarea");
+  deliveryInstructionsTextarea.setAttribute("placeholder", "Delivery Instructions (optional)");
+
+  // Create form submit button
+  const submitButton = document.createElement("button");
+  submitButton.textContent = "Place Order";
+
+  // Create form close button
+  const closeButton = document.createElement("span");
+  closeButton.classList.add("form-popup-close");
+  closeButton.innerHTML = "&times;";
+
+  // Append form elements to the form popup container
+  formPopupContainer.appendChild(nameInput);
+  formPopupContainer.appendChild(numberInput);
+  formPopupContainer.appendChild(addressInput);
+  formPopupContainer.appendChild(deliveryInstructionsTextarea);
+
+  // Get cart items from sessionStorage
+  let cartItems = sessionStorage.getItem("productsInCart");
   cartItems = JSON.parse(cartItems);
-  let emailContent = "Please Leave Your Info We Will Give You A Call \nName:\nNumber:\nAddress:\nDelivery Instructions:\n\n";
-  let totalCost = 0;
+
+  // Create a cart items list in the form popup
+  const cartItemsList = document.createElement("ul");
+  cartItemsList.classList.add("cart-items-list");
 
   Object.values(cartItems).forEach(item => {
-    emailContent += `${item.name} - ${item.inCart} item(s) - $${item.price * item.inCart}\n`;
-    totalCost += item.price * item.inCart;
+    const listItem = document.createElement("li");
+    listItem.textContent = `${item.name} - ${item.inCart} item(s) - $${item.price * item.inCart},00`;
+    cartItemsList.appendChild(listItem);
   });
 
-  emailContent += `\nTotal cost: $${totalCost}\n`;
+  // Hide the cart items list
+cartItemsList.style.display = "none";
 
-  return encodeURIComponent(emailContent);
+  formPopupContainer.appendChild(cartItemsList);
+  formPopupContainer.appendChild(submitButton);
+  formPopupContainer.appendChild(closeButton);
+
+  // Append the form popup container to the body element
+  document.body.appendChild(formPopupContainer);
+
+  // Function to close the form popup
+  function closeFormPopup() {
+    document.body.removeChild(formPopupContainer);
+  }
+
+  // Event listener for the form close button
+  closeButton.addEventListener("click", closeFormPopup);
+
+  // Event listener for the form submit button
+  submitButton.addEventListener("click", function() {
+    // Get the user inputs
+    const name = nameInput.value;
+    const number = numberInput.value;
+    const address = addressInput.value;
+    const deliveryInstructions = deliveryInstructionsTextarea.value;
+  
+    // Validate the required fields
+    if (!name || !number || !address) {
+      alert("Please fill in all required fields.");
+      return;
+    }
+  
+    // Prepare the email content with the user inputs and cart items
+    const emailContent = prepareCartEmail(name, number, address, deliveryInstructions, cartItems);
+   // Assuming emailContent is a string
+   let formattedEmailContent = emailContent
+   .replace(/\n/g, '%0D%0A')
+   .replace(/\t/g, '%09');
+// Open the email client with the prepared email content
+window.location.href = `mailto:bonsaibrothersadmin@proton.me?subject=My%20Cart&body=${formattedEmailContent}`;
+    // Close the form popup
+    closeFormPopup();
+  });
 }
+
 
 window.onload = function(){
   setTimeout(function(){

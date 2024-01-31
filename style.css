@@ -352,13 +352,13 @@ input {
       position: relative;
      margin-right: 160px;
      margin-top: 3px;
-     padding: 2px;
+     padding: 3px;
       /* background-color: #737576; */
       background-color: #000;
       color: #fff;
       /* border: solid 1px #000; */
       border-radius: 7px;
-      font-size: 15px;
+      font-size: 17px;
       z-index: 1;
       backface-visibility: hidden;
     }
