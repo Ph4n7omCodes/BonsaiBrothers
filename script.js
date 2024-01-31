@@ -306,14 +306,14 @@ let products = [
     inCart: 0
   },
    {
-    name: '4 Stains Premium Indoor oz',
+    name: '4 Stains Premium Indoor 1oz',
     tag: '4strainindoor',
     price: 200,
     inCart: 0
   },
   {
-    name: '2 Stain Premium Indoor Mix',
-    tag: 'Mysterybag',
+    name: '2 Stain Premium Indoor Mix 2oz',
+    tag: '2strainindoor',
     price: 300,
     inCart: 0
   },
@@ -522,7 +522,7 @@ displayCart();
 function prepareCartEmail() {
   let cartItems = sessionStorage.getItem('productsInCart');
   cartItems = JSON.parse(cartItems);
-  let emailContent = "Please Leave Your \nName:\nNumber:\nAddress:\nDelivery Instructions:\n\n";
+  let emailContent = "Please Leave Your Info We Will Give You A Call \nName:\nNumber:\nAddress:\nDelivery Instructions:\n\n";
   let totalCost = 0;
 
   Object.values(cartItems).forEach(item => {
