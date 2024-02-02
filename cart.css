@@ -4,6 +4,8 @@
  body{
   background-color: #737576;
  }
+ 
+ 
 
  .cart-item {
   display: flex;
@@ -83,15 +85,13 @@
   font-weight: bold;
   font-size: 20px;
 }
-.cart-btn span {
-  padding-left: 5px;
-  font-size: 16px;
-  vertical-align: bottom;
-}
+
 .cart-btn ion-icon {
+  color: #000;
   vertical-align: bottom;
-  padding-right: 5px;
-  font-size: 18px;
+  padding-right: 10px;
+  margin-left: 20px;
+  font-size: 30px;
 }
 .quantity ion-icon {
   font-size: 25px;
@@ -104,20 +104,18 @@ a {
   display: inline-block;
   margin-top: 10px;
   padding: 3px;
-  color: white;
+  color: transparent;
   text-decoration: none;
   border-radius: 5px;
   font-size: 20px;
   border: none;
   cursor: pointer;
-  background-color: #000;
   text-decoration: none;
-  color:#737576; 
   border-radius: 5px;
 }
 
 a:hover {
-  background-color: #fff;
+opacity: .5;
   transition: 1s;
 }
 
