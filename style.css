@@ -64,6 +64,17 @@
       flex-direction: column;
      }
 
+     .demo p{
+      position: absolute;
+      margin-top: 485px;
+      display: inline-block;
+      color: #000;
+      letter-spacing: .1em;
+      font-weight: 600;
+      font: normal;
+      font-size: 20px;
+     }
+
      .demo a {
       margin-top: 30px;
       bottom: 20px;
@@ -72,7 +83,6 @@
       -webkit-transform: translate(0, -50%);
       transform: translate(0, -50%);
       color: #000;
-      font : normal 400 20px/1 ;
       letter-spacing: .1em;
       text-decoration: none;
       transition: opacity .3s;
