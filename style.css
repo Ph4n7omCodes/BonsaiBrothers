@@ -227,24 +227,44 @@ button:hover{
   top: 5%;
   z-index: 1030;
   cursor: pointer;
+  display: inline-block;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.cart-image{
+position: absolute;
+top: -50%;
+margin-left: 37px;
+z-index: 1;
+}
+.cart-number {
+  position: absolute;
+  z-index: 2;
+  top: 11%;
+left:110%;
+  color: black;
+  font-weight: 900; /* You can change this color to make the number visible on the image */
 }
 .cart-btn span {
   padding-left: 5px;
 }
 
 .cart-btn a{
-  background-color: #000;
-  text-decoration: none;
-  color:#737576;
+  text-decoration:none;
+  font-weight: 600;
+  z-index: 3;
+  color:#000;
   padding: 3px;
+  position: relative;
   border-radius: 5px;
+  position: relative;
+  margin-right: 35px;
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.cart-btn ion-icon {
-  vertical-align: bottom;
-  padding-right: 5px;
-  font-size: 18px;
-}
 
 
 /* Photo Menu */
