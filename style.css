@@ -368,6 +368,20 @@ input {
       flex-direction: column;
       align-items: center;
     }
+.flip-card-front h5{
+  position: absolute;
+  bottom: 107%;
+  z-index: 3;
+  font-size: 15px;
+}
+
+.flip-card-front h2{
+    padding: 25px;
+    z-index: 1;
+    bottom: 100% ;
+  
+}
+
     .flip-card-front p{
       position: relative;
      margin-right: 160px;
@@ -473,11 +487,6 @@ input {
       z-index: 1;
       backface-visibility: hidden;
       position: absolute;
-    }
-    h2{
-      padding: 25px;
-      z-index: 1;
-      bottom: 90% ;
     }
     h3{
       top: 100%;
