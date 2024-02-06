@@ -379,6 +379,7 @@ input {
     padding: 25px;
     z-index: 1;
     bottom: 100% ;
+    backface-visibility: hidden;
   
 }
 
