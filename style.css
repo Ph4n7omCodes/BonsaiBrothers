@@ -368,9 +368,9 @@ input {
       flex-direction: column;
       align-items: center;
     }
-.flip-card-front h5{
+.flip-card-front h4{
   position: absolute;
-  bottom: 107%;
+  bottom: 100%;
   z-index: 3;
   font-size: 15px;
   backface-visibility: hidden;
