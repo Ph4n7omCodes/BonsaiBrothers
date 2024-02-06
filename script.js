@@ -228,6 +228,12 @@ let products = [
     inCart: 0
   },
   {
+    name: '710 Labs Rosin 2g',
+    tag: '710rosin',
+    price: 160,
+    inCart: 0
+  },
+  {
     name: 'Tier 1 Rosin 2g',
     tag: 'Tier1',
     price: 130,
