@@ -371,14 +371,12 @@ input {
 .flip-card-front h4{
   position: absolute;
   bottom: 100%;
-  z-index: 3;
   font-size: 15px;
   backface-visibility: hidden;
 }
 
 .flip-card-front h2{
     padding: 25px;
-    z-index: 1;
     bottom: 100% ;
     backface-visibility: hidden;
   
