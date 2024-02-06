@@ -373,6 +373,7 @@ input {
   bottom: 107%;
   z-index: 3;
   font-size: 15px;
+  backface-visibility: hidden;
 }
 
 .flip-card-front h2{
