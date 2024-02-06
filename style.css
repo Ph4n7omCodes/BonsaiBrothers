@@ -218,11 +218,11 @@ button:hover{
 
 /* cart btn */
 .cart-btn{
-  font-size: 20px;
+  font-size: 24px;
   color: #000;
   position: fixed;
-  right: 4%;
-  top: 5%;
+  right: 1%;
+  top: 4%;
   z-index: 1030;
   cursor: pointer;
   display: inline-block;
@@ -230,6 +230,7 @@ button:hover{
   justify-content: baseline;
   align-items: center;
   border-radius: 90px;
+  font-weight: 600;
 }
 
 .cart-image{
@@ -241,10 +242,9 @@ z-index: 1;
 .cart-number {
   position: absolute;
   z-index: 2;
-  top: 5%;
-left:110%;
+  left: 90%;
   color: black;
-  font-weight: 900; /* You can change this color to make the number visible on the image */
+   /* You can change this color to make the number visible on the image */
 }
 .cart-btn span {
   padding-left: 5px;
