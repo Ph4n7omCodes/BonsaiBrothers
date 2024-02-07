@@ -289,6 +289,30 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Rso 1ml',
+    tag: 'Rso1ml',
+    price: 60,
+    inCart: 0
+  },
+  {
+    name: 'Rso 2ml',
+    tag: 'Rso2ml',
+    price: 120,
+    inCart: 0
+  },
+  {
+    name: 'Rso 5ml',
+    tag: 'Rso5ml',
+    price: 280,
+    inCart: 0
+  },
+  {
+    name: 'Rso 10ml',
+    tag: 'Rso10ml',
+    price: 550,
+    inCart: 0
+  },
+  {
     name: 'Indigo Chocolate',
     tag: 'Mushroomchocolate',
     price: 20,
