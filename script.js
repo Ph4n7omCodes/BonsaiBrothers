@@ -11,12 +11,7 @@ let products = [
     price: 100,
     inCart: 0,
   },
-  {
-    name: 'Tiramisu 1/2oz',
-    tag: 'Tiramisucomingsoon',
-    price: 130,
-    inCart: 0
-  },
+
   {
     name: 'Tropical Cherries 1/2oz',
     tag: 'Tropicanacherry',
