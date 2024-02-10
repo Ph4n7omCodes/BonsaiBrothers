@@ -14,8 +14,23 @@
   <meta name="theme-color" content="#737576">
 </head>
 <body>
+
+  <div class="agepopupContainer" id="popupContainer">
+    <div class="agepopup">
+      <div class="agetop">
+        <h1>Welcome</h1>
+        <img src="./img/logotree.png" alt="">
+      </div>
+      <h2>Confirm You Are 18<sup>+</sup></h2>
+      <div class="age-btn">
+        <button id="yesBtn">Yes</button>
+        <button id="noBtn">No</button>
+      </div>
+      <p id="errorMessage" style="color: red; display: none;">You must be 18 or older to view this page.</p>
+    </div>
+  </div>
   
-  <div id="fadein"></div>
+ 
   <div class="popup" id="popup-1">
     <div class="overlay"></div>
     <div class="content">
@@ -30,7 +45,7 @@
       </div> 
     </div>
   </div>
-  <button onClick="togglePopup()"><i class="bi bi-chat-left-dots"></i></button>
+  <button class="contact-btn" onClick="togglePopup()"><i class="bi bi-chat-left-dots"></i></button>
 
   <div class="cart-btn">
     <a href="cart.html"><!--<img class="cart-image" src="./img/cartlogo2.png" alt=""> --><i class="bi bi-cart"></i><span class="cart-number">0</span></a>
@@ -1621,9 +1636,30 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-  
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Function to show the age verification popup
+      function showAgeVerificationPopup() {
+        document.getElementById("popupContainer").style.display = "flex";
+      }
+    
+      // Call the function to show the popup when the page loads
+      showAgeVerificationPopup();
+    
+      // Add event listeners to the buttons
+      document.getElementById("yesBtn").addEventListener("click", function() {
+        document.getElementById("popupContainer").style.display = "none";
+      });
+    
+      document.getElementById("noBtn").addEventListener("click", function() {
+        document.getElementById("errorMessage").style.display = "block";
+        // Hide the buttons
+        document.querySelectorAll(".age-btn button").forEach(function(button) {
+          button.style.display = "none";
+        });
+      });
+    });
+    </script>
    <!-- Initialize Swiper -->
    <script>
     var swiper = new Swiper(".mySwiper", {

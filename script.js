@@ -708,11 +708,6 @@ cartItemsList.style.display = "none";
   });
 }
 
-window.onload = function(){
-  setTimeout(function(){
-    document.getElementById("fadein").remove();
-  },1000);
-};
 
 function showSection() {
   var i;
