@@ -226,7 +226,7 @@ display: block;
   transform: translate(-50%,-50%) scale(1);
 }
 
-button .bi{
+button{
   font-size: 30px;
   color: #000;
   background-color: transparent;
@@ -237,7 +237,7 @@ button .bi{
   z-index: 1030;
   cursor: pointer;
 }
-button .bi:hover{
+button:hover{
   opacity: 0.5;
   transition: 0.2s;
 }
