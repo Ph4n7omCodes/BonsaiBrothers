@@ -235,6 +235,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Sunshine Live Rosin 1g',
+    tag: 'Sunshinerosin',
+    price: 60,
+    inCart: 0
+  },
+  {
     name: 'Sauced Diamond 1g',
     tag: 'Sauceddiamondscomingsoon',
     price: 40,
@@ -701,8 +707,6 @@ cartItemsList.style.display = "none";
     closeFormPopup();
   });
 }
-
-
 
 window.onload = function(){
   setTimeout(function(){
