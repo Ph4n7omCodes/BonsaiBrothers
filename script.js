@@ -247,7 +247,7 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Papaya Delight 1/2oz',
+    name: 'Papaya Delight 1oz',
     tag: 'Papayadelight',
     price: 250,
     inCart: 0
