@@ -690,7 +690,7 @@ cartItemsList.style.display = "none";
     })
     .then(() => {
       // Email sent successfully
-      alert("Order sent");
+      alert("Order sent. We will contact you shortly.");
         // Clear sessionStorage
   sessionStorage.clear();
    // Redirect to index.html
