@@ -237,7 +237,7 @@ let products = [
   {
     name: 'Sunshine Live Rosin 1g',
     tag: 'Sunshinerosin',
-    price: 60,
+    price: 65,
     inCart: 0
   },
   {
@@ -249,7 +249,7 @@ let products = [
   {
     name: 'Papaya Delight 1/2oz',
     tag: 'Papayadelight',
-    price: 125,
+    price: 250,
     inCart: 0
   },
   {
