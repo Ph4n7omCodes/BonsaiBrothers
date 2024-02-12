@@ -277,6 +277,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Dual Chamber Bonsai Disposable 2G',
+    tag: '2gramdualcomingsoon',
+    price: 50,
+    inCart: 0
+  },
+  {
     name: 'Bonsai Disposable 1G',
     tag: 'Bonsaidisposable',
     price: 30,
@@ -376,6 +382,12 @@ let products = [
     name: 'Peach Cobbler 1/2oz',
     tag: 'Peachcobbler2',
     price: 150,
+    inCart: 0
+  },
+  {
+    name: '4 Dual Chamber Bonsai Disposable 2G',
+    tag: '2gramdualdealcomingsoon',
+    price: 160,
     inCart: 0
   },
   {
