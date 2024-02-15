@@ -416,7 +416,7 @@ input {
       /* background-color: #737576; */
       background-color: #000;
       color: #fff;
-      font-size: 19px;
+      font-size: 18px;
       z-index: 1;
       backface-visibility: hidden;
     }
@@ -478,15 +478,16 @@ input {
   text-decoration: none;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.swiper-button-next, .swiper-button-prev{
   color: #000 !important;
-  fill: black !important;
-  stroke: black !important;
-  top: initial;
-  padding: 17px;
+    fill: black !important;
+    stroke: black !important;
 }
-
+.mySwiper [class^="swiper-button-"]{
+  top: initial;
+  top: 75%;
+  padding: 20px;
+}
 .swiper-button-next {
   right: 0;
 }
@@ -494,9 +495,9 @@ input {
 .swiper-button-prev {
   left: 0;
 }
-
-.mySwiper [class^="swiper-button-"]::after {
+.mySwiper [class^="swiper-button-"]::after{
   font-size: 20px;
+ 
 }
 
 .swiper-slide .add-cart{
