@@ -211,6 +211,18 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Dual Chamber Bonsai Disposable 2G',
+    tag: '2dualgram',
+    price: 50,
+    inCart: 0
+  },
+  {
+    name: 'Bonsai Disposable 1G',
+    tag: 'Bonsaidisposable',
+    price: 30,
+    inCart: 0
+  },
+  {
     name: 'Hash Live Rosin 3.5g',
     tag: 'Hashliverosin3.5comingsoon',
     price: 140,
@@ -242,7 +254,7 @@ let products = [
   },
   {
     name: 'Sauced Diamond 1g',
-    tag: 'Sauceddiamondscomingsoon',
+    tag: 'Sauceddiamonds',
     price: 40,
     inCart: 0
   },
@@ -274,18 +286,6 @@ let products = [
     name: 'Hashhole Pre-roll',
     tag: 'Hashholepreroll',
     price: 100,
-    inCart: 0
-  },
-  {
-    name: 'Dual Chamber Bonsai Disposable 2G',
-    tag: '2dualgram',
-    price: 50,
-    inCart: 0
-  },
-  {
-    name: 'Bonsai Disposable 1G',
-    tag: 'Bonsaidisposable',
-    price: 30,
     inCart: 0
   },
   {
@@ -362,7 +362,7 @@ let products = [
   },
   {
     name: 'Sauced Diamonds 3.5g',
-    tag: 'Sauceddiamond3.5comingsoon',
+    tag: 'Sauceddiamonds3.5',
     price: 100,
     inCart: 0
   },
