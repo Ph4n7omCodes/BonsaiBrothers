@@ -222,12 +222,12 @@ let products = [
     price: 30,
     inCart: 0
   },
-  {
-    name: 'Hash Live Rosin 3.5g',
-    tag: 'Hashliverosin3.5comingsoon',
-    price: 140,
-    inCart: 0
-  },
+  // {
+  //   name: 'Hash Live Rosin 3.5g',
+  //   tag: 'Hashliverosin3.5comingsoon',
+  //   price: 140,
+  //   inCart: 0
+  // },
   {
     name: 'Goldline Rosin 3.5g',
     tag: 'Goldline3.5',
