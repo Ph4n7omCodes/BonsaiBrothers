@@ -278,7 +278,7 @@ let products = [
   },
   {
     name: 'Dual Chamber Bonsai Disposable 2G',
-    tag: '2gramdualcomingsoon',
+    tag: '2dualgram',
     price: 50,
     inCart: 0
   },
@@ -386,7 +386,7 @@ let products = [
   },
   {
     name: '4 Dual Chamber Bonsai Disposable 2G',
-    tag: '2gramdualdealcomingsoon',
+    tag: '2dualgramdeal',
     price: 160,
     inCart: 0
   },
