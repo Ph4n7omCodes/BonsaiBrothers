@@ -237,15 +237,9 @@ let products = [
   {
     name: 'Bonsai Disposable 1G',
     tag: 'Bonsaidisposable',
-    price: 30,
+    price: 40,
     inCart: 0
   },
-  // {
-  //   name: 'Hash Live Rosin 3.5g',
-  //   tag: 'Hashliverosin3.5comingsoon',
-  //   price: 140,
-  //   inCart: 0
-  // },
   {
     name: 'Goldline Rosin 3.5g',
     tag: 'Goldline3.5',
@@ -411,7 +405,7 @@ let products = [
   {
     name: '4 Bonsai Disposables 1G',
     tag: 'Bonsaivapedeal',
-    price: 100,
+    price: 120,
     inCart: 0
   },
 ]
