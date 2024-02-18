@@ -199,9 +199,27 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Space Queen 1/2oz',
+    tag: 'Spacequeencomingsoon',
+    price: 80,
+    inCart: 0
+  },
+  {
     name: 'Gelato 1/2oz',
     tag: 'Gelato',
     price: 80,
+    inCart: 0
+  },
+  {
+    name: 'Runtz smalls 1/2oz',
+    tag: 'Runtzsmallscomingsoon',
+    price: 75,
+    inCart: 0
+  },
+  {
+    name: 'Nerds 1/2oz',
+    tag: 'Nerdscomingsoon',
+    price: 70,
     inCart: 0
   },
   {
