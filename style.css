@@ -409,14 +409,14 @@ input {
 
     .flip-card-front p{
       position: relative;
-     margin-right: 170px;
+     margin-right: 185px;
      margin-top: 4px;
      padding: 5px 4px;
      border-radius: 3px;
       /* background-color: #737576; */
       background-color: #000;
       color: #fff;
-      font-size: 18px;
+      font-size: 16px;
       z-index: 1;
       backface-visibility: hidden;
     }
