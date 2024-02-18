@@ -259,6 +259,24 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Sauced Diamond 1/4oz',
+    tag: 'Sauceddimonds1.4',
+    price: 250,
+    inCart: 0
+  },
+  {
+    name: 'Sauced Diamond 1oz',
+    tag: 'Sauceddiamond1oz',
+    price: 380,
+    inCart: 0
+  },
+  {
+    name: 'Sauced Diamond 2oz',
+    tag: 'Sauceddiamond2oz',
+    price: 700,
+    inCart: 0
+  },
+  {
     name: 'Papaya Delight 1oz',
     tag: 'Papayadelight',
     price: 250,
