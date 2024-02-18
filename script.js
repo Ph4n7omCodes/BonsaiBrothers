@@ -259,8 +259,8 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Sauced Diamond 1/4oz',
-    tag: 'Sauceddimonds1.4',
+    name: 'Sauced Diamond 1/2oz',
+    tag: 'Sauceddimonds1.2',
     price: 250,
     inCart: 0
   },
