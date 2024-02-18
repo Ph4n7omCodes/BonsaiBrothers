@@ -312,7 +312,6 @@ let products = [
     price: 25,
     inCart: 0
   },
-
   {
     name: 'Rso 1ml',
     tag: 'Rso1ml',
