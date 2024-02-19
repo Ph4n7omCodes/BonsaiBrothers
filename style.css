@@ -485,9 +485,9 @@ input {
 }
 .mySwiper [class^="swiper-button-"]{
   top: initial;
-  top: 75%;
-  padding: 20px;
-  margin: 2px;
+  top: 80%;
+  padding: 18px;
+
 }
 .swiper-button-next {
   right: 0;
