@@ -331,6 +331,12 @@ let products = [
     inCart: 0
   },
   {
+    name: '100mg Live Resin Gummies',
+    tag: '100mggummies',
+    price: 25,
+    inCart: 0
+  },
+  {
     name: 'Rso 1ml',
     tag: 'Rso1ml',
     price: 60,
