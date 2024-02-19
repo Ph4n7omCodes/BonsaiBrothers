@@ -487,6 +487,7 @@ input {
   top: initial;
   top: 75%;
   padding: 20px;
+  margin: 2px;
 }
 .swiper-button-next {
   right: 0;
