@@ -235,8 +235,14 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Bonsai Disposable 1G',
+    name: 'Bonsai Distillate Disposable 1G',
     tag: 'Bonsaidisposable',
+    price: 30,
+    inCart: 0
+  },
+  {
+    name: 'Bonsai Live Resin Disposable 1G',
+    tag: 'Bonsailiveresindisposable',
     price: 40,
     inCart: 0
   },
@@ -403,8 +409,14 @@ let products = [
     inCart: 0
   },
   {
-    name: '4 Bonsai Disposables 1G',
+    name: '4 Bonsai Distillate Disposables 1G',
     tag: 'Bonsaivapedeal',
+    price: 100,
+    inCart: 0
+  },
+  {
+    name: '4 Bonsai Live Resin Disposables 1G',
+    tag: 'Bonsailiveresindeal',
     price: 120,
     inCart: 0
   },
