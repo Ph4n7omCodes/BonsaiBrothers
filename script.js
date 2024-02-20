@@ -295,6 +295,18 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Papaya Delight 4g',
+    tag: 'Papayadelight4g',
+    price: 80,
+    inCart: 0
+  },
+  {
+    name: 'Papaya Delight 7g',
+    tag: 'Papayadelight7g',
+    price: 100,
+    inCart: 0
+  },
+  {
     name: 'Papaya Delight 1oz',
     tag: 'Papayadelight',
     price: 250,
