@@ -151,6 +151,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Strawberry Smuckers 1/2oz',
+    tag: 'Strawberrysmuckerscomingsoon',
+    price: 90,
+    inCart: 0
+  },
+  {
     name: 'Gumbo 1/2oz',
     tag: 'Gumbo',
     price: 90,
@@ -187,12 +193,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Frosted FLakes 1/2oz',
-    tag: 'Frostedflakescomingsoon',
-    price: 80,
-    inCart: 0
-  },
-  {
     name: 'Ghostface 1/2oz',
     tag: 'Ghostface',
     price: 80,
@@ -219,12 +219,6 @@ let products = [
   {
     name: 'Nerdz 1/2oz',
     tag: 'Nerdscomingsoon',
-    price: 60,
-    inCart: 0
-  },
-  {
-    name: 'Triangle Mintz 1/2oz',
-    tag: 'Trianglemintzcomingsoon',
     price: 60,
     inCart: 0
   },
