@@ -213,6 +213,12 @@ let products = [
   {
     name: 'Space Queen 1/2oz',
     tag: 'Spacequeencomingsoon',
+    price: 70,
+    inCart: 0
+  },
+  {
+    name: 'Nerdz 1/2oz',
+    tag: 'Nerdscomingsoon',
     price: 60,
     inCart: 0
   },
