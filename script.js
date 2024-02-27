@@ -223,6 +223,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Imperial X 2oz',
+    tag: 'Imperialxcomingsoon',
+    price: 150,
+    inCart: 0
+  },
+  {
     name: 'Dual Chamber Bonsai Disposable 2G',
     tag: '2dualgram',
     price: 50,
