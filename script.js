@@ -297,7 +297,7 @@ let products = [
   {
     name: 'Papaya Delight 7g',
     tag: 'Papayadelight7g',
-    price: 100,
+    price: 120,
     inCart: 0
   },
   {
