@@ -373,18 +373,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Indigo Chocolate',
-    tag: 'Mushroomchocolate',
-    price: 20,
-    inCart: 0
-  },
-  {
-    name: 'Indigo Chocolate 2 pack',
-    tag: 'Mushroomchocolate2',
-    price: 40,
-    inCart: 0
-  },
-  {
     name: 'Mushroom Bar',
     tag: 'Mushroomchocolatefull',
     price: 100,
