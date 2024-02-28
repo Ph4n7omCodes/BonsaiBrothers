@@ -319,15 +319,15 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Crumble 1/2oz',
+    name: 'Crumble 1oz',
     tag: 'Crumble',
-    price: 100,
+    price: 200,
     inCart: 0
   },
   {
-    name: 'Sugar Wax 1/2oz',
+    name: 'Sugar Wax 1oz',
     tag: 'Sugarwax',
-    price: 100,
+    price: 200,
     inCart: 0
   },
   {
