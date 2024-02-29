@@ -11,7 +11,12 @@ let products = [
     price: 100,
     inCart: 0,
   },
-
+  {
+    name: 'Small Batch 3.5',
+    tag: 'Smallbatchcomingsoon',
+    price: 50,
+    inCart: 0,
+  },
   {
     name: 'Tropical Cherries 1/2oz',
     tag: 'Tropicanacherry',
