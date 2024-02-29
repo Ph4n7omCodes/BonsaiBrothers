@@ -187,6 +187,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'XJ-13 1/2oz',
+    tag: 'Xj-13comingsoon',
+    price: 90,
+    inCart: 0
+  },
+  {
     name: 'Sherbet Cake 1/2oz',
     tag: 'Sherbetcake',
     price: 90,
@@ -195,6 +201,18 @@ let products = [
   {
     name: 'Ghostface 1/2oz',
     tag: 'Ghostface',
+    price: 80,
+    inCart: 0
+  },
+  {
+    name: 'Gasoline Zest 1/2oz',
+    tag: 'Gasolinezestcomingsoon',
+    price: 80,
+    inCart: 0
+  },
+  {
+    name: 'Slurricane 1/2oz',
+    tag: 'Slurricanecomingsoon',
     price: 80,
     inCart: 0
   },
@@ -289,12 +307,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Sauced Diamond 2oz',
-    tag: 'Sauceddiamond2oz',
-    price: 700,
-    inCart: 0
-  },
-  {
     name: 'Papaya Delight 4g',
     tag: 'Papayadelight4g',
     price: 80,
@@ -319,13 +331,13 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Crumble 1oz',
+    name: 'Crumble oz',
     tag: 'Crumble',
     price: 200,
     inCart: 0
   },
   {
-    name: 'Sugar Wax 1oz',
+    name: 'Sugar Wax oz',
     tag: 'Sugarwax',
     price: 200,
     inCart: 0
@@ -400,6 +412,12 @@ let products = [
     name: 'Sauced Diamonds 3.5g',
     tag: 'Sauceddiamonds3.5',
     price: 100,
+    inCart: 0
+  },
+  {
+    name: 'Sauced Diamond 2oz',
+    tag: 'Sauceddiamond2oz',
+    price: 700,
     inCart: 0
   },
   {
