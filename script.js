@@ -12,9 +12,9 @@ let products = [
     inCart: 0,
   },
   {
-    name: 'Small Batch 3.5',
-    tag: 'Smallbatchcomingsoon',
-    price: 50,
+    name: 'Small Batch 7g',
+    tag: 'Surfsup',
+    price: 120,
     inCart: 0,
   },
   {
