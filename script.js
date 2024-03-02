@@ -288,6 +288,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Hashish 1g',
+    tag: 'Hashish',
+    price: 45,
+    inCart: 0
+  },
+  {
     name: 'Sunshine Live Rosin 1g',
     tag: 'Sunshinerosin',
     price: 65,
