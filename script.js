@@ -312,7 +312,7 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Sauced Diamond 1oz',
+    name: 'Sauced Diamond oz',
     tag: 'Sauceddiamond1oz',
     price: 380,
     inCart: 0
@@ -330,7 +330,7 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Papaya Delight 1oz',
+    name: 'Papaya Delight oz',
     tag: 'Papayadelight',
     price: 250,
     inCart: 0
@@ -396,7 +396,7 @@ let products = [
     inCart: 0
   },
    {
-    name: '4 Stains Premium Indoor 1oz',
+    name: '4 Stains Premium Indoor oz',
     tag: '4strainindoor',
     price: 200,
     inCart: 0
