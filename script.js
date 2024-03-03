@@ -336,12 +336,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Peach Cobbler 7g',
-    tag: 'Peachcobbler',
-    price: 100,
-    inCart: 0
-  },
-  {
     name: 'Crumble oz',
     tag: 'Crumble',
     price: 200,
