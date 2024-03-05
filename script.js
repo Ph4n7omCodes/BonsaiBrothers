@@ -390,6 +390,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Mush Frog 3g',
+    tag: 'Mushfrog',
+    price: 65,
+    inCart: 0
+  },
+  {
     name: 'Mushroom Bar',
     tag: 'Mushroomchocolatefull',
     price: 100,
