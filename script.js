@@ -252,19 +252,19 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Dual Chamber Bonsai Disposable 2G',
+    name: 'Dual Chamber Bonsai Disposable 2g',
     tag: '2dualgram',
     price: 50,
     inCart: 0
   },
   {
-    name: 'Bonsai Distillate Disposable 1G',
+    name: 'Bonsai Distillate Disposable 1g',
     tag: 'Bonsaidisposable',
     price: 30,
     inCart: 0
   },
   {
-    name: 'Bonsai Live Resin Disposable 1G',
+    name: 'Bonsai Live Resin Disposable 1g',
     tag: 'Bonsailiveresindisposable',
     price: 40,
     inCart: 0
@@ -444,19 +444,19 @@ let products = [
     inCart: 0
   },
   {
-    name: '4 Dual Chamber Bonsai Disposable 2G',
+    name: '4 Dual Chamber Bonsai Disposable 2g',
     tag: '2dualgramdeal',
     price: 160,
     inCart: 0
   },
   {
-    name: '4 Bonsai Distillate Disposables 1G',
+    name: '4 Bonsai Distillate Disposables 1g',
     tag: 'Bonsaivapedeal',
     price: 100,
     inCart: 0
   },
   {
-    name: '4 Bonsai Live Resin Disposables 1G',
+    name: '4 Bonsai Live Resin Disposables 1g',
     tag: 'Bonsailiveresindeal',
     price: 120,
     inCart: 0
