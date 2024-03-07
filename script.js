@@ -270,6 +270,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Bonsai Live Rosin 2g',
+    tag: 'Bonsailiverosin',
+    price: 200,
+    inCart: 0
+  },
+  {
     name: 'Goldline Rosin 3.5g',
     tag: 'Goldline3.5',
     price: 140,
