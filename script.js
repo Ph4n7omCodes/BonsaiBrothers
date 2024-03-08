@@ -24,12 +24,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Pure Michigan 1/2oz',
-    tag: 'Puremichigan',
-    price: 120,
-    inCart: 0
-  },
-  {
     name: 'Zour Milk 1/2oz',
     tag: 'Zourmilk',
     price: 120,
