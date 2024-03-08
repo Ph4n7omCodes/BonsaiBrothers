@@ -152,7 +152,7 @@ let products = [
   {
     name: 'Black Cherry Cake 1/2oz',
     tag: 'Blackcherrycake',
-    price: 90,
+    price: 100,
     inCart: 0
   },
   {
