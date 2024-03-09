@@ -138,15 +138,15 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Jellybean 1/2oz',
-    tag: 'Jellybean',
-    price: 90,
-    inCart: 0
-  },
-  {
     name: 'Black Cherry Cake 1/2oz',
     tag: 'Blackcherrycake',
     price: 100,
+    inCart: 0
+  },
+  {
+    name: 'Jellybean 1/2oz',
+    tag: 'Jellybean',
+    price: 90,
     inCart: 0
   },
   {
