@@ -42,12 +42,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Purple Octane 1/2oz',
-    tag: 'Purpleoctane',
-    price: 120,
-    inCart: 0
-  },
-  {
     name: 'Zlushie 1/2oz',
     tag: 'Zlushies',
     price: 120,
