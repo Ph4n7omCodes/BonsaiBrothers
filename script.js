@@ -120,12 +120,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Biscotti 1/2oz',
-    tag: 'Biscotti',
-    price: 100,
-    inCart: 0
-  },
-  {
     name: 'Zpie 1/2oz',
     tag: 'Zpie',
     price: 100,
@@ -231,12 +225,6 @@ let products = [
     name: 'Nerdz 1/2oz',
     tag: 'Nerdscomingsoon',
     price: 60,
-    inCart: 0
-  },
-  {
-    name: 'Imperial X 2oz',
-    tag: 'Imperialxcomingsoon',
-    price: 150,
     inCart: 0
   },
   {
