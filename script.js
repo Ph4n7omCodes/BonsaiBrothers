@@ -6,12 +6,6 @@ if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
 let carts = document.querySelectorAll('.add-cart');
 let products = [
   {
-    name: 'Puppy Chow 1/4oz',
-    tag: 'Puppychow',
-    price: 100,
-    inCart: 0,
-  },
-  {
     name: 'Small Batch 7g',
     tag: 'Surfsup',
     price: 120,
@@ -219,12 +213,6 @@ let products = [
     name: 'Space Queen 1/2oz',
     tag: 'Spacequeencomingsoon',
     price: 70,
-    inCart: 0
-  },
-  {
-    name: 'Nerdz 1/2oz',
-    tag: 'Nerdscomingsoon',
-    price: 60,
     inCart: 0
   },
   {
