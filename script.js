@@ -102,12 +102,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Jelly Belly 1/2oz',
-    tag: 'jellybelly',
-    price: 100,
-    inCart: 0
-  },
-  {
     name: 'Blue Guava 1/2oz',
     tag: 'Blueguava',
     price: 100,
