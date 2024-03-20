@@ -102,12 +102,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Blue Guava 1/2oz',
-    tag: 'Blueguava',
-    price: 100,
-    inCart: 0
-  },
-  {
     name: 'Zpie 1/2oz',
     tag: 'Zpie',
     price: 100,
