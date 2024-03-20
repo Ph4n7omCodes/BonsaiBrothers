@@ -114,12 +114,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Jellybean 1/2oz',
-    tag: 'Jellybean',
-    price: 90,
-    inCart: 0
-  },
-  {
     name: 'Strawberry Smuckers 1/2oz',
     tag: 'Strawberrysmuckerscomingsoon',
     price: 90,
