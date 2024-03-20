@@ -78,6 +78,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Black Cherry Gelato 1/2oz',
+    tag: 'Blackcherrycake',
+    price: 110,
+    inCart: 0
+  },
+  {
     name: 'RZA 1/2oz',
     tag: 'RZA',
     price: 110,
@@ -105,12 +111,6 @@ let products = [
     name: 'Zpie 1/2oz',
     tag: 'Zpie',
     price: 100,
-    inCart: 0
-  },
-  {
-    name: 'Black Cherry Gelato 1/2oz',
-    tag: 'Blackcherrycake',
-    price: 110,
     inCart: 0
   },
   {
