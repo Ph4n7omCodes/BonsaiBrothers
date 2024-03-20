@@ -108,9 +108,9 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Black Cherry Cake 1/2oz',
+    name: 'Black Cherry Gelato 1/2oz',
     tag: 'Blackcherrycake',
-    price: 100,
+    price: 110,
     inCart: 0
   },
   {
@@ -120,20 +120,8 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Gumbo 1/2oz',
-    tag: 'Gumbo',
-    price: 90,
-    inCart: 0
-  },
-  {
     name: 'Dosilato 1/2oz',
     tag: 'Dosilato',
-    price: 90,
-    inCart: 0
-  },
-  {
-    name: 'Cake Pop 1/2oz',
-    tag: 'Cakepop',
     price: 90,
     inCart: 0
   },
