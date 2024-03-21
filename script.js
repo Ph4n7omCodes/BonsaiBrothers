@@ -132,12 +132,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Area 41 1/2oz',
-    tag: 'Area41',
-    price: 90,
-    inCart: 0
-  },
-  {
     name: 'XJ-13 1/2oz',
     tag: 'Xj-13comingsoon',
     price: 90,
