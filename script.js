@@ -30,12 +30,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Cherry Payton 1/2oz',
-    tag: 'Cherrypayton',
-    price: 120,
-    inCart: 0
-  },
-  {
     name: 'Zlushie 1/2oz',
     tag: 'Zlushies',
     price: 120,
@@ -168,6 +162,18 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Marshmallow Og 3.5g',
+    tag: '710marshmallowog',
+    price: 75,
+    inCart: 0
+  },
+  {
+    name: 'Piescream #7 3.5g',
+    tag: '710piescream',
+    price: 75,
+    inCart: 0
+  },
+  {
     name: 'Runtz smalls 1/2oz',
     tag: 'Runtzsmallscomingsoon',
     price: 75,
@@ -279,18 +285,6 @@ let products = [
     name: 'Hashhole Pre-roll',
     tag: 'Hashholepreroll',
     price: 100,
-    inCart: 0
-  },
-  {
-    name: '200mg Live Rosin Gummies',
-    tag: 'Gummies',
-    price: 25,
-    inCart: 0
-  },
-  {
-    name: '100mg Live Resin Gummies',
-    tag: '100mggummies',
-    price: 25,
     inCart: 0
   },
   {
