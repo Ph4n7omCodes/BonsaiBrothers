@@ -96,12 +96,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Blue Diesel 1/2oz',
-    tag: 'Bluedieselcomingsoon',
-    price: 100,
-    inCart: 0
-  },
-  {
     name: 'Zpie 1/2oz',
     tag: 'Zpie',
     price: 100,
@@ -183,6 +177,12 @@ let products = [
     name: 'Space Queen 1/2oz',
     tag: 'Spacequeencomingsoon',
     price: 70,
+    inCart: 0
+  },
+  {
+    name: 'Grapes Premium 3.5g',
+    tag: 'Grapespremium',
+    price: 65,
     inCart: 0
   },
   {
