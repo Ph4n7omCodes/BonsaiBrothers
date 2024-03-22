@@ -6,6 +6,12 @@ if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
 let carts = document.querySelectorAll('.add-cart');
 let products = [
   {
+    name: 'Puppy Chow 7g',
+    tag: 'Puppychow',
+    price: 100,
+    inCart: 0,
+  },
+  {
     name: 'Small Batch 7g',
     tag: 'Surfsup',
     price: 120,
@@ -192,6 +198,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Wedding Cake 1/2oz',
+    tag: 'Weddingcakecomingsoon',
+    price: 60,
+    inCart: 0
+  },
+  {
     name: 'Dual Chamber Bonsai Disposable 2g',
     tag: '2dualgram',
     price: 50,
@@ -324,7 +336,7 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Mushroom Bar',
+    name: 'Mushroom Bar 5g',
     tag: 'Mushroomchocolatefull',
     price: 100,
     inCart: 0
