@@ -12,6 +12,30 @@ let products = [
     inCart: 0,
   },
   {
+    name: 'Marshmallow Og 3.5g',
+    tag: '710marshmallowog',
+    price: 75,
+    inCart: 0
+  },
+  {
+    name: 'Piescream #7 3.5g',
+    tag: '710piescream',
+    price: 75,
+    inCart: 0
+  },
+  {
+    name: '99z 3.5g',
+    tag: 'Grapespremium',
+    price: 65,
+    inCart: 0
+  },
+  {
+    name: 'LameZ 3.5g',
+    tag: 'LameZ',
+    price: 65,
+    inCart: 0
+  },
+  {
     name: 'Tropical Cherries 1/2oz',
     tag: 'Tropicanacherry',
     price: 130,
@@ -156,18 +180,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Marshmallow Og 3.5g',
-    tag: '710marshmallowog',
-    price: 75,
-    inCart: 0
-  },
-  {
-    name: 'Piescream #7 3.5g',
-    tag: '710piescream',
-    price: 75,
-    inCart: 0
-  },
-  {
     name: 'Runtz smalls 1/2oz',
     tag: 'Runtzsmallscomingsoon',
     price: 75,
@@ -177,12 +189,6 @@ let products = [
     name: 'Space Queen 1/2oz',
     tag: 'Spacequeencomingsoon',
     price: 70,
-    inCart: 0
-  },
-  {
-    name: 'Grapes Premium 3.5g',
-    tag: 'Grapespremium',
-    price: 65,
     inCart: 0
   },
   {
