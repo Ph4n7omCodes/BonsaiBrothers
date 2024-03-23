@@ -329,7 +329,13 @@ let products = [
     price: 100,
     inCart: 0
   },
-   {
+  {
+    name: 'Puppy Chow 3.5g',
+    tag: 'Puppychowdeal',
+    price: 55,
+    inCart: 0,
+  },
+  {
     name: '4 Stains Premium Indoor oz',
     tag: '4strainindoor',
     price: 200,
