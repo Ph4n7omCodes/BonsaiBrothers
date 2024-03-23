@@ -120,18 +120,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Birthday Cake 1/2oz',
-    tag: 'Birthdaycake',
-    price: 100,
-    inCart: 0
-  },
-  {
-    name: 'Zpie 1/2oz',
-    tag: 'Zpie',
-    price: 100,
-    inCart: 0
-  },
-  {
     name: 'Strawberry Smuckers 1/2oz',
     tag: 'Strawberrysmuckerscomingsoon',
     price: 90,
