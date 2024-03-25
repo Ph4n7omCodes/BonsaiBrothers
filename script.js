@@ -192,6 +192,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Hood Candy 1/2oz',
+    tag: 'Hoodcandy',
+    price: 60,
+    inCart: 0
+  },
+  {
     name: 'Dual Chamber Bonsai Disposable 2g',
     tag: '2dualgram',
     price: 50,
@@ -213,6 +219,30 @@ let products = [
     name: 'Bonsai Live Rosin 2g',
     tag: 'Bonsailiverosin',
     price: 200,
+    inCart: 0
+  },
+  {
+    name: 'Jolly Rancher Gummies',
+    tag: 'Jollyrancher',
+    price: 20,
+    inCart: 0
+  },
+  {
+    name: '505 Gummies',
+    tag: '505gummies',
+    price: 20,
+    inCart: 0
+  },
+  {
+    name: 'Funktional Gummies',
+    tag: 'Funktional',
+    price: 25,
+    inCart: 0
+  },
+  {
+    name: 'Kache Gummies',
+    tag: 'Kachegummies',
+    price: 25,
     inCart: 0
   },
   {
