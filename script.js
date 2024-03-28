@@ -20,13 +20,13 @@ let products = [
   {
     name: 'Marshmallow Og 3.5g',
     tag: '710marshmallowog',
-    price: 75,
+    price: 65,
     inCart: 0
   },
   {
     name: 'Piescream #7 3.5g',
     tag: '710piescream',
-    price: 75,
+    price: 65,
     inCart: 0
   },
   {
