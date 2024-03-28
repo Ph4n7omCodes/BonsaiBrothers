@@ -36,12 +36,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'LameZ 3.5g',
-    tag: 'LameZ',
-    price: 65,
-    inCart: 0
-  },
-  {
     name: 'Tropical Cherries 1/2oz',
     tag: 'Tropicanacherry',
     price: 130,
