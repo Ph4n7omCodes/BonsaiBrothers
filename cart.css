@@ -31,6 +31,7 @@
 
 .products-container{
   margin-top: 70px;
+  margin-left: 10px;
 }
 .product {
   display: flex;
@@ -165,4 +166,14 @@ opacity: .5;
     cursor: pointer;
   }
 
-  
+.dispatcher{
+  width: 250px;
+  margin-left: 10px;
+}
+
+.dispatcher a{
+  position: relative;
+  bottom: 30px;
+  color: black;
+  text-decoration: underline;
+}
