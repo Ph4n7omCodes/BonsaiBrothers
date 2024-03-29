@@ -179,12 +179,12 @@ let products = [
     price: 70,
     inCart: 0
   },
-  {
-    name: 'Wedding Cake 1/2oz',
-    tag: 'Weddingcakecomingsoon',
-    price: 60,
-    inCart: 0
-  },
+  // {
+  //   name: 'Wedding Cake 1/2oz',
+  //   tag: 'Weddingcakecomingsoon',
+  //   price: 60,
+  //   inCart: 0
+  // },
   {
     name: 'Hood Candy 1/2oz',
     tag: 'Hoodcandy',
