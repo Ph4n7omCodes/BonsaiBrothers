@@ -210,12 +210,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Bonsai Live Rosin 2g',
-    tag: 'Bonsailiverosin',
-    price: 200,
-    inCart: 0
-  },
-  {
     name: 'Jolly Rancher Gummies',
     tag: 'Jollyrancher',
     price: 20,
@@ -371,10 +365,16 @@ let products = [
     price: 300,
     inCart: 0
   },
-   {
+  {
     name: 'Oreos 2oz',
     tag: 'oreosdeal',
     price: 350,
+    inCart: 0
+  },
+  {
+    name: 'Hood Candy 2oz',
+    tag: 'Hoodcandydeal',
+    price: 180,
     inCart: 0
   },
   {
