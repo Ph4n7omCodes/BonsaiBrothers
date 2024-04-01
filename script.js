@@ -228,12 +228,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Kache Gummies',
-    tag: 'Kachegummies',
-    price: 25,
-    inCart: 0
-  },
-  {
     name: 'Goldline Rosin 3.5g',
     tag: 'Goldline3.5',
     price: 140,
