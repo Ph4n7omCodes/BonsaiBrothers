@@ -179,15 +179,27 @@ let products = [
     price: 70,
     inCart: 0
   },
-  // {
-  //   name: 'Wedding Cake 1/2oz',
-  //   tag: 'Weddingcakecomingsoon',
-  //   price: 60,
-  //   inCart: 0
-  // },
+  {
+    name: 'Wedding Cake 1/2oz',
+    tag: 'Weddingcake',
+    price: 60,
+    inCart: 0
+  },
   {
     name: 'Hood Candy 1/2oz',
     tag: 'Hoodcandy',
+    price: 60,
+    inCart: 0
+  },
+  {
+    name: 'Candy Cane 1/2oz',
+    tag: 'Candycane',
+    price: 60,
+    inCart: 0
+  },
+  {
+    name: 'Triangle Kush 1/2oz',
+    tag: 'Trianglekush',
     price: 60,
     inCart: 0
   },
