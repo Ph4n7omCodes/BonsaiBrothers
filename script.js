@@ -144,12 +144,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Ghostface 1/2oz',
-    tag: 'Ghostface',
-    price: 80,
-    inCart: 0
-  },
-  {
     name: 'Gasoline Zest 1/2oz',
     tag: 'Gasolinezestcomingsoon',
     price: 80,
