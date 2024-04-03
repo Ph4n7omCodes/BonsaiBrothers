@@ -108,6 +108,36 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Pancakes 3.5g',
+    tag: 'Pancakes',
+    price: 55,
+    inCart: 0
+  },
+  {
+    name: 'Margarita Bar 3.5g',
+    tag: 'Margaritabar',
+    price: 55,
+    inCart: 0
+  },
+  {
+    name: 'Big Dipper 3.5g',
+    tag: 'Bigdipper',
+    price: 55,
+    inCart: 0
+  },
+  {
+    name: 'Chettah Piss 3.5g',
+    tag: 'Chettahpiss',
+    price: 55,
+    inCart: 0
+  },
+  {
+    name: 'Cereal A La Mode 3.5g',
+    tag: 'Cerealalamode',
+    price: 55,
+    inCart: 0
+  },
+  {
     name: 'Lava Cake 1/2oz',
     tag: 'Lavacake',
     price: 100,
@@ -234,6 +264,18 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Kache Gummies 200mg',
+    tag: 'Kachegummies',
+    price: 25,
+    inCart: 0
+  },
+  {
+    name: 'Kache Gummies 300mg',
+    tag: 'Kachehashgummies',
+    price: 35,
+    inCart: 0
+  },
+  {
     name: 'Goldline Rosin 3.5g',
     tag: 'Goldline3.5',
     price: 140,
@@ -348,12 +390,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Puppy Chow 3.5g',
-    tag: 'Puppychowdeal',
-    price: 55,
-    inCart: 0,
-  },
-  {
     name: '4 Stains Premium Indoor oz',
     tag: '4strainindoor',
     price: 200,
@@ -376,6 +412,12 @@ let products = [
     tag: 'Hoodcandydeal',
     price: 180,
     inCart: 0
+  },
+  {
+    name: 'Puppy Chow 3.5g',
+    tag: 'Puppychowdeal',
+    price: 55,
+    inCart: 0,
   },
   {
     name: 'Sauced Diamonds 3.5g',
