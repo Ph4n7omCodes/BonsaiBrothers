@@ -246,6 +246,18 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Strawberry Feels Freeze',
+    tag: 'Strawberryfreeze',
+    price: 40,
+    inCart: 0
+  },
+  {
+    name: 'Orange Juice Freeze',
+    tag: 'Orangefreeze',
+    price: 40,
+    inCart: 0
+  },
+  {
     name: 'Jolly Rancher Gummies',
     tag: 'Jollyrancher',
     price: 20,
