@@ -224,7 +224,7 @@ let products = [
   {
     name: 'Triangle Kush 1/2oz',
     tag: 'Trianglekush',
-    price: 60,
+    price: 100,
     inCart: 0
   },
   {
