@@ -276,7 +276,7 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Kache Gummies 300mg',
+    name: 'Nerd Clusters 300mg',
     tag: 'Kachehashgummies',
     price: 35,
     inCart: 0
