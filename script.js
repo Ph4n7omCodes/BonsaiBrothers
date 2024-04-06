@@ -258,12 +258,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Jolly Rancher Gummies',
-    tag: 'Jollyrancher',
-    price: 20,
-    inCart: 0
-  },
-  {
     name: '505 Gummies',
     tag: '505gummies',
     price: 20,
