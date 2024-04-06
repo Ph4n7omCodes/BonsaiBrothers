@@ -252,6 +252,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Espresso Freeze',
+    tag: 'Espressofreeze',
+    price: 40,
+    inCart: 0
+  },
+  {
     name: 'Jolly Rancher Gummies',
     tag: 'Jollyrancher',
     price: 20,
