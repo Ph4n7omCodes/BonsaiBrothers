@@ -54,14 +54,20 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Zlushie 1/2oz',
-    tag: 'Zlushies',
-    price: 120,
+    name: 'Animal Mints 1/2oz',
+    tag: 'Animalmints',
+    price: 110,
     inCart: 0
   },
   {
-    name: 'Animal Mints 1/2oz',
-    tag: 'Animalmints',
+    name: 'Wagyu 1/2oz',
+    tag: 'Wagyu',
+    price: 110,
+    inCart: 0
+  },
+  {
+    name: 'Carbon Fiber 1/2oz',
+    tag: 'Carbonfiber',
     price: 110,
     inCart: 0
   },
