@@ -72,6 +72,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Acai Gelatti 1/2oz',
+    tag: 'Acaigelatti',
+    price: 110,
+    inCart: 0
+  },
+  {
     name: 'Oreos 1/2oz',
     tag: 'oreos',
     price: 110,
