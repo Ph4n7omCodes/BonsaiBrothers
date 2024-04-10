@@ -30,12 +30,6 @@ let products = [
     inCart: 0
   },
   {
-    name: '99z 3.5g',
-    tag: 'Grapespremium',
-    price: 65,
-    inCart: 0
-  },
-  {
     name: 'Tropical Cherries 1/2oz',
     tag: 'Tropicanacherry',
     price: 130,
