@@ -270,18 +270,6 @@ let products = [
     inCart: 0
   },
   {
-    name: '505 Gummies',
-    tag: '505gummies',
-    price: 20,
-    inCart: 0
-  },
-  {
-    name: 'Funktional Gummies',
-    tag: 'Funktional',
-    price: 25,
-    inCart: 0
-  },
-  {
     name: 'Kache Gummies 200mg',
     tag: 'Kachegummies',
     price: 25,
