@@ -42,18 +42,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Strawberry Cheesecake 1/2oz',
-    tag: 'Strawberrycheesecake',
-    price: 120,
-    inCart: 0
-  },
-  {
-    name: 'Animal Mints 1/2oz',
-    tag: 'Animalmints',
-    price: 110,
-    inCart: 0
-  },
-  {
     name: 'Wagyu 1/2oz',
     tag: 'Wagyu',
     price: 110,
@@ -201,12 +189,6 @@ let products = [
     name: 'Space Queen 1/2oz',
     tag: 'Spacequeencomingsoon',
     price: 70,
-    inCart: 0
-  },
-  {
-    name: 'Wedding Cake 1/2oz',
-    tag: 'Weddingcake',
-    price: 60,
     inCart: 0
   },
   {
