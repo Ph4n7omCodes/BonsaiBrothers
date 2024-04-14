@@ -260,7 +260,7 @@ let products = [
   {
     name: '710 Labs Rosin 2g',
     tag: '710rosin',
-    price: 160,
+    price: 130,
     inCart: 0
   },
   {
