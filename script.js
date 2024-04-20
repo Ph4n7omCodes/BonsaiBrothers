@@ -126,6 +126,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Triangle Kush 1/2oz',
+    tag: 'Trianglekush',
+    price: 100,
+    inCart: 0
+  },
+  {
     name: 'Strawberry Smuckers 1/2oz',
     tag: 'Strawberrysmuckerscomingsoon',
     price: 90,
@@ -195,12 +201,6 @@ let products = [
     name: 'Candy Cane 1/2oz',
     tag: 'Candycane',
     price: 60,
-    inCart: 0
-  },
-  {
-    name: 'Triangle Kush 1/2oz',
-    tag: 'Trianglekush',
-    price: 100,
     inCart: 0
   },
   {
