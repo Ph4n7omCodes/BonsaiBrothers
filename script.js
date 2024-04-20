@@ -192,12 +192,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Hood Candy 1/2oz',
-    tag: 'Hoodcandy',
-    price: 60,
-    inCart: 0
-  },
-  {
     name: 'Candy Cane 1/2oz',
     tag: 'Candycane',
     price: 60,
@@ -369,12 +363,6 @@ let products = [
     name: 'Oreos 2oz',
     tag: 'oreosdeal',
     price: 350,
-    inCart: 0
-  },
-  {
-    name: 'Hood Candy 2oz',
-    tag: 'Hoodcandydeal',
-    price: 180,
     inCart: 0
   },
   {
