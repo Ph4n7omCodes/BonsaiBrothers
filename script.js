@@ -480,6 +480,7 @@ function totalCost(product){
   }
 }
 
+
 function displayCart() {
   let cartItems = sessionStorage.getItem("productsInCart");
   cartItems = JSON.parse(cartItems);
@@ -488,7 +489,12 @@ function displayCart() {
 
   if (cartItems && productContainer) {
     productContainer.innerHTML = '';
+    let totalPrice = 0; // Initialize total price variable
+
     Object.values(cartItems).map(item => {
+      const itemTotalPrice = item.price * item.inCart;
+      totalPrice += itemTotalPrice; // Add item total price to the total price variable
+
       productContainer.innerHTML += `
         <div class="cart-item">
           <div class="product">
@@ -502,11 +508,16 @@ function displayCart() {
             <ion-icon class="increase" name="arrow-dropright-circle" data-tag="${item.tag}"></ion-icon>
           </div>
           <div class="total">
-            $${item.inCart * item.price},00
+            $${itemTotalPrice.toFixed(2)}
           </div>
         </div>
       `;
     });
+
+    // Calculate the discounted total price
+    const discount = 0.15; // 15% discount
+    const discountedTotalPrice = totalPrice * (1 - discount);
+    const discountAmount = totalPrice - discountedTotalPrice;
 
     productContainer.innerHTML += `
       <div class="basketTotalContainer">
@@ -514,7 +525,10 @@ function displayCart() {
           Basket Total
         </h4>
         <h4 class="basketTotal">
-          $${cartCost},00
+          $${discountedTotalPrice.toFixed(2)}
+        </h4>
+        <h4 class="discount">
+          -$${discountAmount.toFixed(2)} (15% off)
         </h4>
         <button onclick="showFormPopup()">Place Order</button>
       </div>
@@ -608,7 +622,14 @@ function prepareCartEmail(name, number, address, deliveryInstructions, cartItems
   });
   
   emailContent += `</ul>`;
-  emailContent += `<p><strong>Total Price:</strong> $${totalPrice.toFixed(2)}</p>`; // Add total price to the email content
+
+  // Calculate the discounted total price
+  const discount = 0.15; // 15% discount
+  const discountedTotalPrice = totalPrice * (1 - discount);
+  const discountAmount = totalPrice - discountedTotalPrice;
+
+  emailContent += `<p><strong>Total Price:</strong> $${discountedTotalPrice.toFixed(2)}</p>`; // Add discounted total price to the email content
+  emailContent += `<p><strong>Discount:</strong> $${discountAmount.toFixed(2)} (15% off)</p>`; // Add discount amount to the email content
 
   return emailContent;
 }

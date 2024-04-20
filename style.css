@@ -41,9 +41,9 @@
       background-color: white;
       border-radius: 5px;
       width: 350px;
-      height: 200px;
+      height: 275px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      font-size: 12px;
+      font-size: 10px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -53,8 +53,13 @@
     /* age verification */
     .agetop{
       display: flex;
-    
       gap: 20px;
+      font-size: 10px;
+    }
+
+    .agetop img{
+      height: 70px;
+      width: 70px;
     }
    
     .agepopup .age-btn button {
