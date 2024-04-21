@@ -36,12 +36,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Zour Milk 1/2oz',
-    tag: 'Zourmilk',
-    price: 120,
-    inCart: 0
-  },
-  {
     name: 'Wagyu 1/2oz',
     tag: 'Wagyu',
     price: 110,
