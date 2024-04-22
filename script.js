@@ -114,12 +114,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Lava Cake 1/2oz',
-    tag: 'Lavacake',
-    price: 100,
-    inCart: 0
-  },
-  {
     name: 'Triangle Kush 1/2oz',
     tag: 'Trianglekush',
     price: 100,
