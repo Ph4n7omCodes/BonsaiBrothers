@@ -348,6 +348,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Mushroom Bar 5g',
+    tag: 'Mushroomchocolatefull',
+    price: 100,
+    inCart: 0
+  },
+  {
     name: '2 Stain Premium Indoor Mix 2oz',
     tag: '2strainindoor',
     price: 300,
