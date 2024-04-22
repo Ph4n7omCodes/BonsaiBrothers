@@ -72,12 +72,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Cheetah Piss 1/2oz',
-    tag: 'CheetahPiss',
-    price: 110,
-    inCart: 0
-  },
-  {
     name: 'RZA 1/2oz',
     tag: 'RZA',
     price: 110,
