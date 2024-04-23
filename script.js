@@ -126,12 +126,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Tarts 1/2oz',
-    tag: 'Tarts',
-    price: 90,
-    inCart: 0
-  },
-  {
     name: 'XJ-13 1/2oz',
     tag: 'Xj-13comingsoon',
     price: 90,
