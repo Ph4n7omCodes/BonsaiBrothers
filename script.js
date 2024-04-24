@@ -150,12 +150,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Gelato 1/2oz',
-    tag: 'Gelato',
-    price: 80,
-    inCart: 0
-  },
-  {
     name: 'Runtz smalls 1/2oz',
     tag: 'Runtzsmallscomingsoon',
     price: 75,
