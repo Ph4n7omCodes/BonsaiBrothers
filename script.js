@@ -336,12 +336,6 @@ let products = [
     inCart: 0
   },
   {
-    name: 'Oreos 2oz',
-    tag: 'oreosdeal',
-    price: 350,
-    inCart: 0
-  },
-  {
     name: 'Puppy Chow 3.5g',
     tag: 'Puppychowdeal',
     price: 55,
