@@ -36,6 +36,12 @@ let products = [
     inCart: 0
   },
   {
+    name: 'Permanent Marker 1/2oz',
+    tag: 'Permanentmarker',
+    price: 125,
+    inCart: 0
+  },
+  {
     name: 'Wagyu 1/2oz',
     tag: 'Wagyu',
     price: 110,
@@ -111,6 +117,18 @@ let products = [
     name: 'Triangle Kush 1/2oz',
     tag: 'Trianglekush',
     price: 100,
+    inCart: 0
+  },
+  {
+    name: 'Candy Runtz 1/2oz',
+    tag: 'Candyruntz',
+    price: 100,
+    inCart: 0
+  },
+  {
+    name: 'Ice Cream Cake 1/2oz',
+    tag: 'Icecreamcake',
+    price: 90,
     inCart: 0
   },
   {
